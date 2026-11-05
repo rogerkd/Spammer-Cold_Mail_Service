@@ -1,0 +1,185 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Spammer
+      - button "Compose a one-off email" [ref=e11] [cursor=pointer]:
+        - generic [ref=e15]: Compose
+    - generic [ref=e16]:
+      - generic [ref=e17]: ● Local only
+      - button "Refresh" [ref=e18] [cursor=pointer]
+  - generic [ref=e19]:
+    - complementary [ref=e20]:
+      - button "Open profile and preferences" [ref=e21] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e22]: P
+        - generic [ref=e23]:
+          - strong [ref=e24]: Your profile
+          - generic [ref=e25]: deepakt90su30@gmail.com
+      - navigation [ref=e26]:
+        - button "Overview" [ref=e27] [cursor=pointer]
+        - button "Analytics" [ref=e28] [cursor=pointer]
+        - button "Contacts" [ref=e29] [cursor=pointer]
+        - button "Tracker" [active] [ref=e30] [cursor=pointer]
+        - button "Campaign" [ref=e31] [cursor=pointer]
+        - button "Settings" [ref=e32] [cursor=pointer]
+        - button "Profile & appearance" [ref=e33] [cursor=pointer]
+    - main [ref=e34]:
+      - generic [ref=e166]:
+        - heading "Tracker" [level=1] [ref=e167]
+        - paragraph [ref=e168]: One row per recipient, including Gmail thread and follow-up status. Turn follow-ups off or back on for any sent message before it is sent.
+        - generic [ref=e169]:
+          - textbox "Search tracker" [ref=e170]
+          - generic [ref=e171]: 10 records
+        - table [ref=e173]:
+          - rowgroup [ref=e174]:
+            - row [ref=e175]:
+              - columnheader "Email" [ref=e176]
+              - columnheader "Type" [ref=e177]
+              - columnheader "SMTP" [ref=e178]
+              - columnheader "Delivery check" [ref=e179]
+              - columnheader "Sent at" [ref=e180]
+              - columnheader "Subject" [ref=e181]
+              - columnheader "Thread ID" [ref=e182]
+              - columnheader "Follow-up" [ref=e183]
+              - columnheader "Message snapshot" [ref=e184]
+              - columnheader "Updated" [ref=e185]
+          - rowgroup [ref=e186]:
+            - row [ref=e187]:
+              - cell "alok.singh@recro.io" [ref=e188]
+              - cell "campaign" [ref=e189]
+              - cell "sent" [ref=e191]
+              - cell "awaiting check" [ref=e193]
+              - cell "2026-10-31 18:03:01" [ref=e195]
+              - cell "Exploring opportunities at Recro" [ref=e196]
+              - cell "1880568606794404800" [ref=e197]
+              - cell [ref=e198]:
+                - generic [ref=e199]:
+                  - text: On by default
+                  - button "Turn off" [ref=e201] [cursor=pointer]
+              - cell "—" [ref=e202]
+              - cell "2026-10-31 18:03:01" [ref=e203]
+            - row [ref=e204]:
+              - cell "allwyn.r@qbrainx.com" [ref=e205]
+              - cell "campaign" [ref=e206]
+              - cell "sent" [ref=e208]
+              - cell "awaiting check" [ref=e210]
+              - cell "2026-10-31 17:59:09" [ref=e212]
+              - cell "Exploring opportunities at QBrainX Inc" [ref=e213]
+              - cell "1880568363535393842" [ref=e214]
+              - cell [ref=e215]:
+                - generic [ref=e216]:
+                  - text: On by default
+                  - button "Turn off" [ref=e218] [cursor=pointer]
+              - cell "—" [ref=e219]
+              - cell "2026-10-31 17:59:09" [ref=e220]
+            - row [ref=e221]:
+              - cell "albino@pixis.ai" [ref=e222]
+              - cell "campaign" [ref=e223]
+              - cell "sent" [ref=e225]
+              - cell "bounced" [ref=e227]
+              - cell "2026-10-31 17:56:27" [ref=e229]
+              - cell "Exploring opportunities at Pyxis One" [ref=e230]
+              - cell "1880568193691041728" [ref=e231]
+              - cell [ref=e232]:
+                - generic [ref=e233]:
+                  - text: On by default
+                  - button "Turn off" [ref=e235] [cursor=pointer]
+              - cell "—" [ref=e236]
+              - cell "2026-11-01 00:59:24" [ref=e237]
+            - row [ref=e238]:
+              - cell "akshata.bhandare@windmill.ch" [ref=e239]
+              - cell "campaign" [ref=e240]
+              - cell "sent" [ref=e242]
+              - cell "awaiting check" [ref=e244]
+              - cell "2026-10-31 17:51:40" [ref=e246]
+              - cell "Exploring opportunities at Windmill" [ref=e247]
+              - cell "1880567892226908515" [ref=e248]
+              - cell [ref=e249]:
+                - generic [ref=e250]:
+                  - text: On by default
+                  - button "Turn off" [ref=e252] [cursor=pointer]
+              - cell "—" [ref=e253]
+              - cell "2026-10-31 17:51:40" [ref=e254]
+            - row [ref=e255]:
+              - cell "akriti@elsner.in" [ref=e256]
+              - cell "campaign" [ref=e257]
+              - cell "sent" [ref=e259]
+              - cell "bounced" [ref=e261]
+              - cell "2026-10-31 17:47:17" [ref=e263]
+              - cell "Exploring opportunities at Elsner Technologies" [ref=e264]
+              - cell "1880567617025819555" [ref=e265]
+              - cell [ref=e266]:
+                - generic [ref=e267]:
+                  - text: On by default
+                  - button "Turn off" [ref=e269] [cursor=pointer]
+              - cell "—" [ref=e270]
+              - cell "2026-11-01 00:59:24" [ref=e271]
+            - row [ref=e272]:
+              - cell "akram.mohammad@colruytgroup.com" [ref=e273]
+              - cell "campaign" [ref=e274]
+              - cell "sent" [ref=e276]
+              - cell "awaiting check" [ref=e278]
+              - cell "2026-10-31 17:42:35" [ref=e280]
+              - cell "Exploring opportunities at Colruyt India" [ref=e281]
+              - cell "1880567320987907897" [ref=e282]
+              - cell [ref=e283]:
+                - generic [ref=e284]:
+                  - text: On by default
+                  - button "Turn off" [ref=e286] [cursor=pointer]
+              - cell "—" [ref=e287]
+              - cell "2026-10-31 17:42:35" [ref=e288]
+            - row [ref=e289]:
+              - cell "akhila@estuate.com" [ref=e290]
+              - cell "campaign" [ref=e291]
+              - cell "sent" [ref=e293]
+              - cell "bounced" [ref=e295]
+              - cell "2026-10-31 17:39:14" [ref=e297]
+              - cell "Exploring opportunities at Estuate" [ref=e298]
+              - cell "1880567110521655478" [ref=e299]
+              - cell [ref=e300]:
+                - generic [ref=e301]:
+                  - text: On by default
+                  - button "Turn off" [ref=e303] [cursor=pointer]
+              - cell "—" [ref=e304]
+              - cell "2026-11-01 00:59:24" [ref=e305]
+            - row [ref=e306]:
+              - cell "akhil@ibhubs.co" [ref=e307]
+              - cell "campaign" [ref=e308]
+              - cell "sent" [ref=e310]
+              - cell "awaiting check" [ref=e312]
+              - cell "2026-10-31 17:35:54" [ref=e314]
+              - cell "Exploring opportunities at iB Hubs" [ref=e315]
+              - cell "1880566900326693382" [ref=e316]
+              - cell [ref=e317]:
+                - generic [ref=e318]:
+                  - text: On by default
+                  - button "Turn off" [ref=e320] [cursor=pointer]
+              - cell "—" [ref=e321]
+              - cell "2026-10-31 17:35:54" [ref=e322]
+            - row [ref=e323]:
+              - cell "akanksha.sogani@perennialsys.com" [ref=e324]
+              - cell "campaign" [ref=e325]
+              - cell "sent" [ref=e327]
+              - cell "awaiting check" [ref=e329]
+              - cell "2026-10-31 13:21:07" [ref=e331]
+              - cell "Exploring opportunities at Perennial Systems" [ref=e332]
+              - cell "1880550871243399562" [ref=e333]
+              - cell [ref=e334]:
+                - generic [ref=e335]:
+                  - text: On by default
+                  - button "Turn off" [ref=e337] [cursor=pointer]
+              - cell "—" [ref=e338]
+              - cell "2026-10-31 13:21:07" [ref=e339]
+            - row [ref=e340]:
+              - cell "akanksha.puri@sourcefuse.com" [ref=e341]
+              - cell "campaign" [ref=e342]
+              - cell "sent" [ref=e344]
+              - cell "awaiting check" [ref=e346]
+              - cell "2026-10-31 03:26:44" [ref=e348]
+              - cell "Exploring opportunities at SourceFuse Technologies" [ref=e349]
+              - cell "1880513475750338134" [ref=e350]
+              - cell [ref=e351]:
+                - generic [ref=e352]:
+                  - text: On by default
+                  - button "Turn off" [ref=e354] [cursor=pointer]
+              - cell "—" [ref=e355]
+              - cell "2026-10-31 03:26:44" [ref=e356]

@@ -5,7 +5,10 @@ local_profiles/
 __pycache__/
 *.py[cod]
 *.tmp
+<<<<<<< HEAD
 
 # Playwright MCP local artifacts
 .playwright-mcp/
 playwright-mcp/
+=======
+>>>>>>> f4c604046fc195dfb17fff10ff7290071b162d99

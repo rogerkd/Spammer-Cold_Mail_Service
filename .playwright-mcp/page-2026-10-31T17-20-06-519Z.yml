@@ -1,0 +1,38 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]: ✉
+      - generic [ref=f1e5]: Outreach Desk
+    - generic [ref=f1e6]:
+      - generic [ref=f1e7]: ● Local only
+      - button "Refresh" [ref=f1e8] [cursor=pointer]
+  - generic [ref=f1e9]:
+    - complementary [ref=f1e10]:
+      - navigation [ref=f1e11]:
+        - button "Overview" [ref=f1e12] [cursor=pointer]
+        - button "Analytics" [ref=f1e13] [cursor=pointer]
+        - button "Contacts" [ref=f1e14] [cursor=pointer]
+        - button "Tracker" [ref=f1e15] [cursor=pointer]
+        - button "Campaign" [ref=f1e16] [cursor=pointer]
+        - button "Settings" [ref=f1e17] [cursor=pointer]
+    - main [ref=f1e18]:
+      - generic [ref=f1e322]:
+        - heading "Campaign controls" [level=1] [ref=f1e323]
+        - paragraph [ref=f1e324]: Preview is safe. Sending actions always require confirmation.
+        - generic [ref=f1e325]:
+          - heading "Outbound actions" [level=2] [ref=f1e326]
+          - generic [ref=f1e327]:
+            - button "Preview next batch" [ref=f1e328] [cursor=pointer]
+            - button "Send daily batch" [ref=f1e329] [cursor=pointer]
+            - button "Preview follow-ups" [ref=f1e330] [cursor=pointer]
+            - button "Check replies & send follow-ups" [ref=f1e331] [cursor=pointer]
+            - button "Sync Gmail threads" [ref=f1e332] [cursor=pointer]
+          - generic [ref=f1e334]:
+            - text: Send one test email to
+            - generic [ref=f1e335]:
+              - textbox "Send one test email to Send test" [ref=f1e336]:
+                - /placeholder: you@example.com
+              - button "Send test" [ref=f1e337] [cursor=pointer]
+          - generic [ref=f1e338]: "Task: followup preview · running"
+          - generic [ref=f1e339]: Starting…
+        - generic [ref=f1e340]: Email sending is irreversible. Preview first, verify the recipients and template, then confirm the send action.

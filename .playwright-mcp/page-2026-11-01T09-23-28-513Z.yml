@@ -1,0 +1,89 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Spammer
+    - generic [ref=e11]:
+      - generic [ref=e12]: ● Local only
+      - button "Refresh" [ref=e13] [cursor=pointer]
+  - generic [ref=e14]:
+    - complementary [ref=e15]:
+      - button "Open profile and preferences" [ref=e16] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e17]: P
+        - generic [ref=e18]:
+          - strong [ref=e19]: Your profile
+          - generic [ref=e20]: deepakt90su30@gmail.com
+      - navigation [ref=e21]:
+        - button "Overview" [ref=e22] [cursor=pointer]
+        - button "Analytics" [ref=e23] [cursor=pointer]
+        - button "Contacts" [ref=e24] [cursor=pointer]
+        - button "Tracker" [ref=e25] [cursor=pointer]
+        - button "Campaign" [ref=e26] [cursor=pointer]
+        - button "Settings" [active] [ref=e27] [cursor=pointer]
+        - button "Profile & appearance" [ref=e28] [cursor=pointer]
+      - button "Compose a one-off email" [ref=e29] [cursor=pointer]:
+        - generic [ref=e33]: Compose email
+    - main [ref=e34]:
+      - generic [ref=e166]:
+        - heading "Settings" [level=1] [ref=e167]
+        - paragraph [ref=e168]: Manage sending limits, Gmail credentials, templates, and resume.
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - heading "Sending limits" [level=2] [ref=e171]
+            - generic [ref=e173]:
+              - generic [ref=e174]:
+                - text: Emails per day
+                - spinbutton "Emails per day" [ref=e175]: "10"
+              - generic [ref=e176]:
+                - text: Minimum gap (seconds)
+                - spinbutton "Minimum gap (seconds)" [ref=e177]: "120"
+              - generic [ref=e178]:
+                - text: Maximum gap (seconds)
+                - spinbutton "Maximum gap (seconds)" [ref=e179]: "300"
+              - generic [ref=e180]:
+                - text: Days between follow-ups
+                - spinbutton "Days between follow-ups Wait this many days before the first follow-up and between later follow-ups." [ref=e181]: "7"
+                - generic [ref=e182]: Wait this many days before the first follow-up and between later follow-ups.
+              - generic [ref=e183]:
+                - text: Maximum follow-ups per recipient
+                - combobox "Maximum follow-ups per recipient" [ref=e184]:
+                  - option "1 follow-up (default)" [selected]
+                  - option "2 follow-ups"
+                  - option "3 follow-ups"
+              - button "Save limits" [ref=e186] [cursor=pointer]
+          - generic [ref=e187]:
+            - heading "Gmail credentials" [level=2] [ref=e188]
+            - paragraph [ref=e189]: Credentials are configured. App Password is never returned to the browser.
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - text: Sender Gmail address
+                - textbox "Sender Gmail address" [ref=e192]: deepakt90su30@gmail.com
+              - generic [ref=e193]:
+                - text: New Google App Password
+                - textbox "New Google App Password" [ref=e194]:
+                  - /placeholder: Leave blank to keep current password
+              - button "Save credentials" [ref=e196] [cursor=pointer]
+        - generic [ref=e197]:
+          - heading "Email templates" [level=2] [ref=e198]
+          - paragraph [ref=e199]: "Use placeholders such as {first_name}, {name}, {company}, {title}; follow-up also supports {subject}."
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - text: Initial email template
+              - textbox "Initial email template" [ref=e202]: "Name: Deepak Kumar Subject: Exploring opportunities at {company} Hi {first_name}, I hope you're doing well. I'm currently working as a Programmer Analyst at Cognizant with 1+ year of professional experience. My technical skills include Java, Spring Boot, Python, SQL, REST APIs, and Generative AI/AI Agents. I have a strong foundation in Data Structures and Algorithms, with 690+ problems solved on LeetCode, along with hands-on experience building backend and AI-powered projects. I'm actively exploring opportunities in Software Development (SDE/SWE), Backend Engineering, and AI Engineering. I'd appreciate it if you could consider my profile for any relevant openings at {company}. Please find my updated resume attached for your consideration. LeetCode: https://leetcode.com/u/dk_1729 GitHub: https://github.com/rogerkd LinkedIn: https://www.linkedin.com/in/deepak-kumar-03579b242/ Thank you for your time. Looking forward to hearing from you. Best regards, Deepak Kumar +91-7909304175"
+            - generic [ref=e203]:
+              - text: Follow-up template
+              - textbox "Follow-up template" [ref=e204]: "Subject: Re: {subject} Hi {first_name}, I wanted to politely follow up on my note about opportunities at {company}. If there may be a suitable opportunity, or someone else I should contact, I'd be grateful for your guidance. If now isn't a good time, no worries. Best regards, {name} -- If you'd rather not hear from me, just reply \"unsubscribe\" and I won't email you again."
+            - button "Save templates" [ref=e206] [cursor=pointer]
+        - generic [ref=e207]:
+          - heading "Resume" [level=2] [ref=e208]
+          - paragraph [ref=e209]: "Currently selected: Resume_SE.pdf"
+          - generic [ref=e210]:
+            - combobox [ref=e211]:
+              - option "Resume_DS1.pdf"
+              - option "Resume_Net.pdf"
+              - option "Resume_SE.pdf" [selected]
+            - button "Use selected" [ref=e212] [cursor=pointer]
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - text: Upload PDF, DOC, or DOCX (max 8 MB)
+              - button "Upload PDF, DOC, or DOCX (max 8 MB)" [ref=e215]
+            - button "Upload resume" [ref=e217] [cursor=pointer]
+  - text: Write your email message…

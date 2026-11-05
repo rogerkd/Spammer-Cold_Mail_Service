@@ -1,0 +1,195 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]: Spammer
+      - button "Compose a one-off email" [ref=f1e11] [cursor=pointer]:
+        - generic [ref=f1e15]: Compose
+    - generic [ref=f1e16]:
+      - generic [ref=f1e17]: ● Local only
+      - button "Refresh" [ref=f1e18] [cursor=pointer]
+  - generic [ref=f1e19]:
+    - complementary [ref=f1e20]:
+      - button "Open profile and preferences" [ref=f1e21] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f1e22]: P
+        - generic [ref=f1e23]:
+          - strong [ref=f1e24]: Your profile
+          - generic [ref=f1e25]: deepakt90su30@gmail.com
+      - navigation [ref=f1e26]:
+        - button "Overview" [ref=f1e27] [cursor=pointer]
+        - button "Analytics" [ref=f1e28] [cursor=pointer]
+        - button "Contacts" [ref=f1e29] [cursor=pointer]
+        - button "Tracker" [ref=f1e30] [cursor=pointer]
+        - button "Campaign" [ref=f1e31] [cursor=pointer]
+        - button "Settings" [ref=f1e32] [cursor=pointer]
+        - button "Profile & appearance" [ref=f1e33] [cursor=pointer]
+    - main [ref=f1e34]:
+      - generic [ref=f1e35]:
+        - heading "Overview" [level=1] [ref=f1e36]
+        - paragraph [ref=f1e37]: Your mailer activity and the next steps at a glance.
+        - generic [ref=f1e38]:
+          - generic [ref=f1e312]:
+            - generic [ref=f1e313]: Contacts
+            - generic [ref=f1e314]: "1842"
+            - generic [ref=f1e315]: 1836 valid
+          - generic [ref=f1e316]:
+            - generic [ref=f1e317]: Already emailed
+            - generic [ref=f1e318]: "10"
+            - generic [ref=f1e319]: Includes uncertain outcomes held
+          - generic [ref=f1e320]:
+            - generic [ref=f1e321]: Remaining
+            - generic [ref=f1e322]: "1826"
+            - generic [ref=f1e323]: "Next: alok.kumar@vfislk.com"
+          - generic [ref=f1e324]:
+            - generic [ref=f1e325]: Sent today
+            - generic [ref=f1e326]: 0 / 10
+            - generic [ref=f1e327]: Daily cap
+          - generic [ref=f1e328]:
+            - generic [ref=f1e329]: Follow-ups due
+            - generic [ref=f1e330]: "0"
+            - generic [ref=f1e331]: Need reply check
+          - generic [ref=f1e332]:
+            - generic [ref=f1e333]: Send outcome unknown
+            - generic [ref=f1e334]: "0"
+            - generic [ref=f1e335]: Check Gmail Sent before retry
+          - generic [ref=f1e336]:
+            - generic [ref=f1e337]: Delivery issues
+            - generic [ref=f1e338]: "3"
+            - generic [ref=f1e339]: Check Inbox & Spam
+          - generic [ref=f1e340]:
+            - generic [ref=f1e341]: Suppressed
+            - generic [ref=f1e342]: "3"
+            - generic [ref=f1e343]: Excluded from sends
+        - generic [ref=f1e71]:
+          - generic [ref=f1e72]:
+            - generic [ref=f1e73]:
+              - strong [ref=f1e74]: Campaign progress
+              - generic [ref=f1e75]: Unique contacts completed
+            - strong [ref=f1e76]: 0.5%
+          - generic [ref=f1e78]:
+            - button "Preview today's batch" [ref=f1e79] [cursor=pointer]
+            - button "Review follow-ups" [ref=f1e80] [cursor=pointer]
+            - button "Manage contacts" [ref=f1e81] [cursor=pointer]
+        - generic [ref=f1e82]:
+          - generic [ref=f1e83]:
+            - heading "Next recipient" [level=2] [ref=f1e84]
+            - generic [ref=f1e85]:
+              - strong [ref=f1e344]: Alok Kumar
+              - generic [ref=f1e345]: alok.kumar@vfislk.com · VFI SLK
+          - generic [ref=f1e88]:
+            - heading "Last successful send" [level=2] [ref=f1e89]
+            - generic [ref=f1e90]:
+              - strong [ref=f1e346]: alok.singh@recro.io
+              - generic [ref=f1e347]: 2026-10-31 18:03:01 · Exploring opportunities at Recro
+        - generic [ref=f1e93]:
+          - generic [ref=f1e94]:
+            - heading "Follow-up queue" [level=2] [ref=f1e95]
+            - generic [ref=f1e96]: No follow-ups currently meet the 7-day eligibility check.
+          - generic [ref=f1e98]:
+            - heading "Campaign health" [level=2] [ref=f1e99]
+            - generic [ref=f1e349]:
+              - generic [ref=f1e350]:
+                - strong [ref=f1e351]: Daily capacity available
+                - generic [ref=f1e352]: 0 of 10 initial emails sent today
+              - generic [ref=f1e353]:
+                - strong [ref=f1e354]: 6 contacts need review
+                - generic [ref=f1e355]: 1,836 valid of 1,842 contacts
+              - generic [ref=f1e356]:
+                - strong [ref=f1e357]: No overdue follow-ups identified
+                - generic [ref=f1e358]: Run a follow-up check to detect replies before sending
+        - generic [ref=f1e111]:
+          - heading "Recent activity" [level=2] [ref=f1e112]
+          - table [ref=f1e360]:
+            - rowgroup [ref=f1e361]:
+              - row [ref=f1e362]:
+                - columnheader "Email" [ref=f1e363]
+                - columnheader "Send" [ref=f1e364]
+                - columnheader "Follow-up" [ref=f1e365]
+                - columnheader "Last updated" [ref=f1e366]
+            - rowgroup [ref=f1e367]:
+              - row [ref=f1e368]:
+                - cell "alok.singh@recro.io" [ref=f1e369]
+                - cell "sent" [ref=f1e370]
+                - cell "pending" [ref=f1e372]
+                - cell "2026-10-31 18:03:01" [ref=f1e374]
+              - row [ref=f1e375]:
+                - cell "allwyn.r@qbrainx.com" [ref=f1e376]
+                - cell "sent" [ref=f1e377]
+                - cell "pending" [ref=f1e379]
+                - cell "2026-10-31 17:59:09" [ref=f1e381]
+              - row [ref=f1e382]:
+                - cell "albino@pixis.ai" [ref=f1e383]
+                - cell "sent" [ref=f1e384]
+                - cell "pending" [ref=f1e386]
+                - cell "2026-10-31 17:56:27" [ref=f1e388]
+              - row [ref=f1e389]:
+                - cell "akshata.bhandare@windmill.ch" [ref=f1e390]
+                - cell "sent" [ref=f1e391]
+                - cell "pending" [ref=f1e393]
+                - cell "2026-10-31 17:51:40" [ref=f1e395]
+              - row [ref=f1e396]:
+                - cell "akriti@elsner.in" [ref=f1e397]
+                - cell "sent" [ref=f1e398]
+                - cell "pending" [ref=f1e400]
+                - cell "2026-10-31 17:47:17" [ref=f1e402]
+              - row [ref=f1e403]:
+                - cell "akram.mohammad@colruytgroup.com" [ref=f1e404]
+                - cell "sent" [ref=f1e405]
+                - cell "pending" [ref=f1e407]
+                - cell "2026-10-31 17:42:35" [ref=f1e409]
+  - dialog [ref=f1e166]:
+    - heading "Compose one-off email" [level=2] [ref=f1e167]
+    - paragraph [ref=f1e168]: "This saves or updates the contact and records the send attempt. Use {first_name}, {name}, {company}, and {title} placeholders. To protect existing history, the recipient must not already have a tracker entry. The selected resume is attached."
+    - generic [ref=f1e169]:
+      - generic [ref=f1e170]:
+        - generic [ref=f1e171]:
+          - text: Name
+          - textbox "Name" [ref=f1e172]: Test Recipient
+        - generic [ref=f1e173]:
+          - text: Email
+          - combobox "Email" [ref=f1e174]: preview-only@example.com
+        - generic [ref=f1e175]:
+          - text: Title
+          - textbox "Title" [ref=f1e176]
+        - generic [ref=f1e177]:
+          - text: Company
+          - textbox "Company" [ref=f1e178]
+        - generic [ref=f1e179]:
+          - text: Subject
+          - textbox "Subject" [ref=f1e180]: Preview
+        - generic [ref=f1e181]:
+          - generic [ref=f1e182]: Message
+          - toolbar "Message formatting" [ref=f1e183]:
+            - combobox "Font family" [ref=f1e184]:
+              - option "Arial" [selected]
+              - option "Georgia"
+              - option "Verdana"
+              - option "Tahoma"
+              - option "Times New Roman"
+              - option "Courier New"
+            - combobox "Font size" [ref=f1e185]:
+              - option "Small"
+              - option "Normal" [selected]
+              - option "Large"
+              - option "Huge"
+            - button "Bold" [ref=f1e186] [cursor=pointer]:
+              - strong [ref=f1e187]: B
+            - button "Italic" [ref=f1e188] [cursor=pointer]:
+              - emphasis [ref=f1e189]: I
+            - button "Underline" [ref=f1e190] [cursor=pointer]: U
+            - button "Insert emoji" [ref=f1e192] [cursor=pointer]: 😊 Emoji
+          - textbox "Message body" [ref=f1e193]
+        - generic [ref=f1e194]:
+          - checkbox "Allow one automated follow-up after 7 days, if no reply is found" [ref=f1e195]
+          - text: Allow one automated follow-up after 7 days, if no reply is found
+      - generic [ref=f1e410]: Ready. Contact and tracker will be updated; automated follow-up is not enabled.
+      - generic [ref=f1e411]:
+        - generic [ref=f1e412]: "To: Test Recipient <preview-only@example.com> Subject: Preview Attachment: Resume_SE.pdf"
+        - generic [ref=f1e413]:
+          - text: Hello from the composer😊
+          - paragraph [ref=f1e414]:
+            - generic [ref=f1e415]: "--If you'd rather not hear from me, just reply \"unsubscribe\" and I won't email you again."
+      - generic [ref=f1e196]:
+        - button "Load saved initial template" [ref=f1e197] [cursor=pointer]
+        - button "Preview" [active] [ref=f1e198] [cursor=pointer]
+        - button "Cancel" [ref=f1e199] [cursor=pointer]
+        - button "Confirm & send" [ref=f1e200] [cursor=pointer]

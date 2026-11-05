@@ -1,0 +1,275 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Spammer
+      - button "Compose a one-off email" [ref=e11] [cursor=pointer]:
+        - generic [ref=e15]: Compose
+    - generic [ref=e16]:
+      - generic [ref=e17]: ● Local only
+      - button "Refresh" [ref=e18] [cursor=pointer]
+  - generic [ref=e19]:
+    - complementary [ref=e20]:
+      - button "Open profile and preferences" [ref=e21] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e22]: P
+        - generic [ref=e23]:
+          - strong [ref=e24]: Your profile
+          - generic [ref=e25]: deepakt90su30@gmail.com
+      - navigation [ref=e26]:
+        - button "Overview" [ref=e27] [cursor=pointer]
+        - button "Analytics" [ref=e28] [cursor=pointer]
+        - button "Contacts" [ref=e29] [cursor=pointer]
+        - button "Tracker" [ref=e30] [cursor=pointer]
+        - button "Campaign" [ref=e31] [cursor=pointer]
+        - button "Settings" [ref=e32] [cursor=pointer]
+        - button "Profile & appearance" [ref=e33] [cursor=pointer]
+    - main [ref=e34]:
+      - generic [ref=e264]:
+        - heading "Tracker" [level=1] [ref=e265]
+        - paragraph [ref=e266]: One row per recipient, including Gmail thread and follow-up status. Use switches individually or select visible rows to change several preferences together.
+        - generic [ref=e267]:
+          - textbox "Search tracker" [ref=e268]
+          - generic [ref=e269]: 10 records
+        - generic [ref=e467]:
+          - generic [ref=e468]:
+            - checkbox "Select all eligible tracker rows" [checked] [ref=e469]
+            - text: Select all visible
+          - generic [ref=e470]: 10 selected
+          - button "Disable follow-ups for selected" [disabled] [ref=e471]
+          - button "Enable follow-ups for selected" [disabled] [ref=e472]
+          - button "Cancel selection" [ref=e473] [cursor=pointer]
+        - table [ref=e273]:
+          - rowgroup [ref=e274]:
+            - row [ref=e474]:
+              - columnheader "Select" [ref=e475]
+              - columnheader "Email" [ref=e276]
+              - columnheader "Type" [ref=e277]
+              - columnheader "SMTP" [ref=e278]
+              - columnheader "Delivery check" [ref=e279]
+              - columnheader "Sent at" [ref=e280]
+              - columnheader "Subject" [ref=e281]
+              - columnheader "Thread ID" [ref=e282]
+              - columnheader "Follow-up" [ref=e283]
+              - columnheader "Message snapshot" [ref=e284]
+              - columnheader "Updated" [ref=e285]
+          - rowgroup [ref=e286]:
+            - row [ref=e2130]:
+              - cell [ref=e2131]:
+                - checkbox "Select alok.singh@recro.io" [checked] [ref=e2132]
+              - cell "alok.singh@recro.io" [ref=e2133]
+              - cell "campaign" [ref=e2134]
+              - cell "sent" [ref=e2136]
+              - cell "awaiting check" [ref=e2138]
+              - cell "2026-10-31 18:03:01" [ref=e2140]
+              - cell "Exploring opportunities at Recro" [ref=e2141]
+              - cell "1880568606794404800" [ref=e2142]
+              - cell "Follow-up for alok.singh@recro.io On" [ref=e2143]:
+                - generic "On" [ref=e2144] [cursor=pointer]:
+                  - checkbox "Follow-up for alok.singh@recro.io" [checked] [disabled] [ref=e2145]
+              - cell "—" [ref=e2148]
+              - cell "2026-10-31 18:03:01" [ref=e2149]
+            - row [ref=e2150]:
+              - cell [ref=e2151]:
+                - checkbox "Select allwyn.r@qbrainx.com" [checked] [ref=e2152]
+              - cell "allwyn.r@qbrainx.com" [ref=e2153]
+              - cell "campaign" [ref=e2154]
+              - cell "sent" [ref=e2156]
+              - cell "awaiting check" [ref=e2158]
+              - cell "2026-10-31 17:59:09" [ref=e2160]
+              - cell "Exploring opportunities at QBrainX Inc" [ref=e2161]
+              - cell "1880568363535393842" [ref=e2162]
+              - cell "Follow-up for allwyn.r@qbrainx.com On" [ref=e2163]:
+                - generic "On" [ref=e2164] [cursor=pointer]:
+                  - checkbox "Follow-up for allwyn.r@qbrainx.com" [checked] [disabled] [ref=e2165]
+              - cell "—" [ref=e2168]
+              - cell "2026-10-31 17:59:09" [ref=e2169]
+            - row [ref=e2170]:
+              - cell [ref=e2171]:
+                - checkbox "Select albino@pixis.ai" [checked] [ref=e2172]
+              - cell "albino@pixis.ai" [ref=e2173]
+              - cell "campaign" [ref=e2174]
+              - cell "sent" [ref=e2176]
+              - cell "bounced" [ref=e2178]
+              - cell "2026-10-31 17:56:27" [ref=e2180]
+              - cell "Exploring opportunities at Pyxis One" [ref=e2181]
+              - cell "1880568193691041728" [ref=e2182]
+              - cell "Follow-up for albino@pixis.ai Blocked by delivery status" [ref=e2183]:
+                - generic "Blocked by delivery status" [ref=e2184] [cursor=pointer]:
+                  - checkbox "Follow-up for albino@pixis.ai" [checked] [disabled] [ref=e2185]
+              - cell "—" [ref=e2188]
+              - cell "2026-11-01 00:59:24" [ref=e2189]
+            - row [ref=e2190]:
+              - cell [ref=e2191]:
+                - checkbox "Select akshata.bhandare@windmill.ch" [checked] [ref=e2192]
+              - cell "akshata.bhandare@windmill.ch" [ref=e2193]
+              - cell "campaign" [ref=e2194]
+              - cell "sent" [ref=e2196]
+              - cell "awaiting check" [ref=e2198]
+              - cell "2026-10-31 17:51:40" [ref=e2200]
+              - cell "Exploring opportunities at Windmill" [ref=e2201]
+              - cell "1880567892226908515" [ref=e2202]
+              - cell "Follow-up for akshata.bhandare@windmill.ch On" [ref=e2203]:
+                - generic "On" [ref=e2204] [cursor=pointer]:
+                  - checkbox "Follow-up for akshata.bhandare@windmill.ch" [checked] [disabled] [ref=e2205]
+              - cell "—" [ref=e2208]
+              - cell "2026-10-31 17:51:40" [ref=e2209]
+            - row [ref=e2210]:
+              - cell [ref=e2211]:
+                - checkbox "Select akriti@elsner.in" [checked] [ref=e2212]
+              - cell "akriti@elsner.in" [ref=e2213]
+              - cell "campaign" [ref=e2214]
+              - cell "sent" [ref=e2216]
+              - cell "bounced" [ref=e2218]
+              - cell "2026-10-31 17:47:17" [ref=e2220]
+              - cell "Exploring opportunities at Elsner Technologies" [ref=e2221]
+              - cell "1880567617025819555" [ref=e2222]
+              - cell "Follow-up for akriti@elsner.in Blocked by delivery status" [ref=e2223]:
+                - generic "Blocked by delivery status" [ref=e2224] [cursor=pointer]:
+                  - checkbox "Follow-up for akriti@elsner.in" [checked] [disabled] [ref=e2225]
+              - cell "—" [ref=e2228]
+              - cell "2026-11-01 00:59:24" [ref=e2229]
+            - row [ref=e2230]:
+              - cell [ref=e2231]:
+                - checkbox "Select akram.mohammad@colruytgroup.com" [checked] [ref=e2232]
+              - cell "akram.mohammad@colruytgroup.com" [ref=e2233]
+              - cell "campaign" [ref=e2234]
+              - cell "sent" [ref=e2236]
+              - cell "awaiting check" [ref=e2238]
+              - cell "2026-10-31 17:42:35" [ref=e2240]
+              - cell "Exploring opportunities at Colruyt India" [ref=e2241]
+              - cell "1880567320987907897" [ref=e2242]
+              - cell "Follow-up for akram.mohammad@colruytgroup.com On" [ref=e2243]:
+                - generic "On" [ref=e2244] [cursor=pointer]:
+                  - checkbox "Follow-up for akram.mohammad@colruytgroup.com" [checked] [disabled] [ref=e2245]
+              - cell "—" [ref=e2248]
+              - cell "2026-10-31 17:42:35" [ref=e2249]
+            - row [ref=e2250]:
+              - cell [ref=e2251]:
+                - checkbox "Select akhila@estuate.com" [checked] [ref=e2252]
+              - cell "akhila@estuate.com" [ref=e2253]
+              - cell "campaign" [ref=e2254]
+              - cell "sent" [ref=e2256]
+              - cell "bounced" [ref=e2258]
+              - cell "2026-10-31 17:39:14" [ref=e2260]
+              - cell "Exploring opportunities at Estuate" [ref=e2261]
+              - cell "1880567110521655478" [ref=e2262]
+              - cell "Follow-up for akhila@estuate.com Blocked by delivery status" [ref=e2263]:
+                - generic "Blocked by delivery status" [ref=e2264] [cursor=pointer]:
+                  - checkbox "Follow-up for akhila@estuate.com" [checked] [disabled] [ref=e2265]
+              - cell "—" [ref=e2268]
+              - cell "2026-11-01 00:59:24" [ref=e2269]
+            - row [ref=e2270]:
+              - cell [ref=e2271]:
+                - checkbox "Select akhil@ibhubs.co" [checked] [ref=e2272]
+              - cell "akhil@ibhubs.co" [ref=e2273]
+              - cell "campaign" [ref=e2274]
+              - cell "sent" [ref=e2276]
+              - cell "awaiting check" [ref=e2278]
+              - cell "2026-10-31 17:35:54" [ref=e2280]
+              - cell "Exploring opportunities at iB Hubs" [ref=e2281]
+              - cell "1880566900326693382" [ref=e2282]
+              - cell "Follow-up for akhil@ibhubs.co On" [ref=e2283]:
+                - generic "On" [ref=e2284] [cursor=pointer]:
+                  - checkbox "Follow-up for akhil@ibhubs.co" [checked] [disabled] [ref=e2285]
+              - cell "—" [ref=e2288]
+              - cell "2026-10-31 17:35:54" [ref=e2289]
+            - row [ref=e2290]:
+              - cell [ref=e2291]:
+                - checkbox "Select akanksha.sogani@perennialsys.com" [checked] [ref=e2292]
+              - cell "akanksha.sogani@perennialsys.com" [ref=e2293]
+              - cell "campaign" [ref=e2294]
+              - cell "sent" [ref=e2296]
+              - cell "awaiting check" [ref=e2298]
+              - cell "2026-10-31 13:21:07" [ref=e2300]
+              - cell "Exploring opportunities at Perennial Systems" [ref=e2301]
+              - cell "1880550871243399562" [ref=e2302]
+              - cell "Follow-up for akanksha.sogani@perennialsys.com On" [ref=e2303]:
+                - generic "On" [ref=e2304] [cursor=pointer]:
+                  - checkbox "Follow-up for akanksha.sogani@perennialsys.com" [checked] [disabled] [ref=e2305]
+              - cell "—" [ref=e2308]
+              - cell "2026-10-31 13:21:07" [ref=e2309]
+            - row [ref=e2310]:
+              - cell [ref=e2311]:
+                - checkbox "Select akanksha.puri@sourcefuse.com" [checked] [ref=e2312]
+              - cell "akanksha.puri@sourcefuse.com" [ref=e2313]
+              - cell "campaign" [ref=e2314]
+              - cell "sent" [ref=e2316]
+              - cell "awaiting check" [ref=e2318]
+              - cell "2026-10-31 03:26:44" [ref=e2320]
+              - cell "Exploring opportunities at SourceFuse Technologies" [ref=e2321]
+              - cell "1880513475750338134" [ref=e2322]
+              - cell "Follow-up for akanksha.puri@sourcefuse.com On" [ref=e2323]:
+                - generic "On" [ref=e2324] [cursor=pointer]:
+                  - checkbox "Follow-up for akanksha.puri@sourcefuse.com" [checked] [disabled] [ref=e2325]
+              - cell "—" [ref=e2328]
+              - cell "2026-10-31 03:26:44" [ref=e2329]
+  - dialog [ref=e1276]:
+    - heading "Compose one-off email" [level=2] [ref=e1277]
+    - paragraph [ref=e1278]: "This saves or updates the contact and records the send attempt. Use {first_name}, {name}, {company}, and {title} placeholders. To protect existing history, the recipient must not already have a tracker entry. The selected resume is attached."
+    - generic [ref=e1279]:
+      - generic [ref=e1280]:
+        - generic [ref=e1281]:
+          - text: Name
+          - textbox "Name" [ref=e1282]: Test Recipient
+        - generic [ref=e1283]:
+          - text: Email
+          - combobox "Email" [ref=e1284]: preview-only@example.com
+        - generic [ref=e1285]:
+          - text: Title
+          - textbox "Title" [ref=e1286]
+        - generic [ref=e1287]:
+          - text: Company
+          - textbox "Company" [ref=e1288]
+        - generic [ref=e1289]:
+          - text: Subject
+          - textbox "Subject" [ref=e1290]: Formatting preview check
+        - generic [ref=e1291]:
+          - generic [ref=e1292]: Message
+          - toolbar "Message formatting" [ref=e1293]:
+            - combobox "Font family" [ref=e1294]:
+              - option "Arial" [selected]
+              - option "Georgia"
+              - option "Verdana"
+              - option "Tahoma"
+              - option "Times New Roman"
+              - option "Courier New"
+            - combobox "Font size" [ref=e1295]:
+              - option "Small"
+              - option "Normal" [selected]
+              - option "Large"
+              - option "Huge"
+            - button "Bold" [ref=e1296] [cursor=pointer]:
+              - strong [ref=e1297]: B
+            - button "Italic" [ref=e1298] [cursor=pointer]:
+              - emphasis [ref=e1299]: I
+            - button "Underline" [ref=e1300] [cursor=pointer]: U
+            - generic [ref=e1301]:
+              - button "Insert emoji" [expanded] [ref=e1302] [cursor=pointer]: 😊 Emoji
+              - group "Choose an emoji" [ref=e1511]:
+                - button "Smile" [ref=e1512] [cursor=pointer]: 😊
+                - button "Waving hand" [ref=e1513] [cursor=pointer]: 👋
+                - button "Thumbs up" [ref=e1514] [cursor=pointer]: 👍
+                - button "Clapping" [ref=e1515] [cursor=pointer]: 👏
+                - button "Sparkles" [ref=e1516] [cursor=pointer]: ✨
+                - button "Star" [ref=e1517] [cursor=pointer]: ⭐
+                - button "Rocket" [ref=e1518] [cursor=pointer]: 🚀
+                - button "Light bulb" [ref=e1519] [cursor=pointer]: 💡
+                - button "Party popper" [ref=e1520] [cursor=pointer]: 🎉
+                - button "Heart" [ref=e1521] [cursor=pointer]: ❤️
+                - button "Check mark" [ref=e1522] [cursor=pointer]: ✅
+                - button "Thinking face" [ref=e1523] [cursor=pointer]: 🤔
+          - textbox "Message body" [active] [ref=e1303]
+        - generic [ref=e1304]:
+          - checkbox "Allow one automated follow-up after 7 days, if no reply is found" [ref=e1305]
+          - text: Allow one automated follow-up after 7 days, if no reply is found
+      - generic [ref=e1924]: Ready. Contact and tracker will be updated; automated follow-up is not enabled.
+      - generic [ref=e1925]:
+        - generic [ref=e1926]: "To: Test Recipient <preview-only@example.com> Subject: Formatting preview check Attachment: Resume_SE.pdf"
+        - generic [ref=e1927]:
+          - text: Hello from the formatted composer.
+          - paragraph [ref=e1928]:
+            - generic [ref=e1929]: "--If you'd rather not hear from me, just reply \"unsubscribe\" and I won't email you again."
+      - generic [ref=e1306]:
+        - button "Load saved initial template" [ref=e1307] [cursor=pointer]
+        - button "Preview" [ref=e1308] [cursor=pointer]
+        - button "Cancel" [ref=e1309] [cursor=pointer]
+        - button "Confirm & send" [ref=e1310] [cursor=pointer]

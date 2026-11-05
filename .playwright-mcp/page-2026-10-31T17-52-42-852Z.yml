@@ -1,0 +1,127 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - generic [ref=f4e4]: ✉
+      - generic [ref=f4e5]: Outreach Desk
+    - generic [ref=f4e6]:
+      - generic [ref=f4e7]: ● Local only
+      - button "Refresh" [ref=f4e8] [cursor=pointer]
+  - generic [ref=f4e9]:
+    - complementary [ref=f4e10]:
+      - button "Open profile and preferences" [ref=f4e11] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f4e12]: P
+        - strong [ref=f4e14]: Your profile
+      - navigation [ref=f4e15]:
+        - button "Overview" [ref=f4e16] [cursor=pointer]
+        - button "Analytics" [ref=f4e17] [cursor=pointer]
+        - button "Contacts" [ref=f4e18] [cursor=pointer]
+        - button "Tracker" [ref=f4e19] [cursor=pointer]
+        - button "Campaign" [ref=f4e20] [cursor=pointer]
+        - button "Settings" [ref=f4e21] [cursor=pointer]
+        - button "Profile & appearance" [ref=f4e22] [cursor=pointer]
+    - main [ref=f4e23]:
+      - generic [ref=f4e24]:
+        - heading "Overview" [level=1] [ref=f4e25]
+        - paragraph [ref=f4e26]: Your mailer activity and the next steps at a glance.
+        - generic [ref=f4e27]:
+          - generic [ref=f4e28]:
+            - generic [ref=f4e29]: Contacts
+            - generic [ref=f4e30]: "1842"
+            - generic [ref=f4e31]: 1836 valid
+          - generic [ref=f4e32]:
+            - generic [ref=f4e33]: Already emailed
+            - generic [ref=f4e34]: "10"
+            - generic [ref=f4e35]: Unique recipients
+          - generic [ref=f4e36]:
+            - generic [ref=f4e37]: Remaining
+            - generic [ref=f4e38]: "1826"
+            - generic [ref=f4e39]: "Next: alok.kumar@vfislk.com"
+          - generic [ref=f4e40]:
+            - generic [ref=f4e41]: Sent today
+            - generic [ref=f4e42]: 10 / 10
+            - generic [ref=f4e43]: Daily cap
+          - generic [ref=f4e44]:
+            - generic [ref=f4e45]: Follow-ups due
+            - generic [ref=f4e46]: "0"
+            - generic [ref=f4e47]: Need reply check
+          - generic [ref=f4e48]:
+            - generic [ref=f4e49]: Suppressed
+            - generic [ref=f4e50]: "0"
+            - generic [ref=f4e51]: Excluded from sends
+        - generic [ref=f4e52]:
+          - generic [ref=f4e53]:
+            - generic [ref=f4e54]:
+              - strong [ref=f4e55]: Campaign progress
+              - generic [ref=f4e56]: Unique contacts completed
+            - strong [ref=f4e57]: 0.5%
+          - generic [ref=f4e59]:
+            - button "Preview today's batch" [ref=f4e60] [cursor=pointer]
+            - button "Review follow-ups" [ref=f4e61] [cursor=pointer]
+            - button "Manage contacts" [ref=f4e62] [cursor=pointer]
+        - generic [ref=f4e63]:
+          - generic [ref=f4e64]:
+            - heading "Next recipient" [level=2] [ref=f4e65]
+            - generic [ref=f4e66]:
+              - strong [ref=f4e67]: Alok Kumar
+              - generic [ref=f4e68]: alok.kumar@vfislk.com · VFI SLK
+          - generic [ref=f4e69]:
+            - heading "Last successful send" [level=2] [ref=f4e70]
+            - generic [ref=f4e71]:
+              - strong [ref=f4e72]: alok.singh@recro.io
+              - generic [ref=f4e73]: 2026-10-31 18:03:01 · Exploring opportunities at Recro
+        - generic [ref=f4e74]:
+          - generic [ref=f4e75]:
+            - heading "Follow-up queue" [level=2] [ref=f4e76]
+            - generic [ref=f4e77]: No follow-ups currently meet the 7-day eligibility check.
+          - generic [ref=f4e79]:
+            - heading "Campaign health" [level=2] [ref=f4e80]
+            - generic [ref=f4e82]:
+              - generic [ref=f4e83]:
+                - strong [ref=f4e84]: Daily send limit reached
+                - generic [ref=f4e85]: 10 of 10 initial emails sent today
+              - generic [ref=f4e86]:
+                - strong [ref=f4e87]: 6 contacts need review
+                - generic [ref=f4e88]: 1,836 valid of 1,842 contacts
+              - generic [ref=f4e89]:
+                - strong [ref=f4e90]: No overdue follow-ups identified
+                - generic [ref=f4e91]: Run a follow-up check to detect replies before sending
+        - generic [ref=f4e92]:
+          - heading "Recent activity" [level=2] [ref=f4e93]
+          - table [ref=f4e96]:
+            - rowgroup [ref=f4e97]:
+              - row [ref=f4e98]:
+                - columnheader "Email" [ref=f4e99]
+                - columnheader "Send" [ref=f4e100]
+                - columnheader "Follow-up" [ref=f4e101]
+                - columnheader "Last updated" [ref=f4e102]
+            - rowgroup [ref=f4e103]:
+              - row [ref=f4e104]:
+                - cell "alok.singh@recro.io" [ref=f4e105]
+                - cell "sent" [ref=f4e106]
+                - cell "pending" [ref=f4e108]
+                - cell "2026-10-31 18:03:01" [ref=f4e110]
+              - row [ref=f4e111]:
+                - cell "allwyn.r@qbrainx.com" [ref=f4e112]
+                - cell "sent" [ref=f4e113]
+                - cell "pending" [ref=f4e115]
+                - cell "2026-10-31 17:59:09" [ref=f4e117]
+              - row [ref=f4e118]:
+                - cell "albino@pixis.ai" [ref=f4e119]
+                - cell "sent" [ref=f4e120]
+                - cell "pending" [ref=f4e122]
+                - cell "2026-10-31 17:56:27" [ref=f4e124]
+              - row [ref=f4e125]:
+                - cell "akshata.bhandare@windmill.ch" [ref=f4e126]
+                - cell "sent" [ref=f4e127]
+                - cell "pending" [ref=f4e129]
+                - cell "2026-10-31 17:51:40" [ref=f4e131]
+              - row [ref=f4e132]:
+                - cell "akriti@elsner.in" [ref=f4e133]
+                - cell "sent" [ref=f4e134]
+                - cell "pending" [ref=f4e136]
+                - cell "2026-10-31 17:47:17" [ref=f4e138]
+              - row [ref=f4e139]:
+                - cell "akram.mohammad@colruytgroup.com" [ref=f4e140]
+                - cell "sent" [ref=f4e141]
+                - cell "pending" [ref=f4e143]
+                - cell "2026-10-31 17:42:35" [ref=f4e145]

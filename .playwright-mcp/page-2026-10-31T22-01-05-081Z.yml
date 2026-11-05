@@ -1,0 +1,102 @@
+- generic [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - generic [ref=f3e4]: Spammer
+      - button "Compose a one-off email" [ref=f3e11] [cursor=pointer]:
+        - generic [ref=f3e15]: Compose
+    - generic [ref=f3e16]:
+      - generic [ref=f3e17]: ● Local only
+      - button "Refresh" [ref=f3e18] [cursor=pointer]
+  - generic [ref=f3e19]:
+    - complementary [ref=f3e20]:
+      - button "Open profile and preferences" [ref=f3e21] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f3e22]: P
+        - generic [ref=f3e23]:
+          - strong [ref=f3e24]: Your profile
+          - generic [ref=f3e25]: deepakt90su30@gmail.com
+      - navigation [ref=f3e26]:
+        - button "Overview" [ref=f3e27] [cursor=pointer]
+        - button "Analytics" [ref=f3e28] [cursor=pointer]
+        - button "Contacts" [ref=f3e29] [cursor=pointer]
+        - button "Tracker" [ref=f3e30] [cursor=pointer]
+        - button "Campaign" [ref=f3e31] [cursor=pointer]
+        - button "Settings" [active] [ref=f3e32] [cursor=pointer]
+        - button "Profile & appearance" [ref=f3e33] [cursor=pointer]
+    - main [ref=f3e34]:
+      - generic [ref=f3e166]:
+        - heading "Settings" [level=1] [ref=f3e167]
+        - paragraph [ref=f3e168]: Manage sending limits, Gmail credentials, templates, resume, and suppression list.
+        - generic [ref=f3e169]:
+          - generic [ref=f3e170]:
+            - heading "Sending limits" [level=2] [ref=f3e171]
+            - generic [ref=f3e173]:
+              - generic [ref=f3e174]:
+                - text: Emails per day
+                - spinbutton "Emails per day" [ref=f3e175]: "10"
+              - generic [ref=f3e176]:
+                - text: Minimum gap (seconds)
+                - spinbutton "Minimum gap (seconds)" [ref=f3e177]: "120"
+              - generic [ref=f3e178]:
+                - text: Maximum gap (seconds)
+                - spinbutton "Maximum gap (seconds)" [ref=f3e179]: "300"
+              - generic [ref=f3e180]:
+                - text: Maximum weekly follow-ups
+                - combobox "Maximum weekly follow-ups" [ref=f3e181]:
+                  - option "1 week · one follow-up (default)"
+                  - option "2 weeks · up to two weekly follow-ups"
+                  - option "3 weeks · up to three weekly follow-ups"
+              - button "Save limits" [ref=f3e183] [cursor=pointer]
+          - generic [ref=f3e184]:
+            - heading "Gmail credentials" [level=2] [ref=f3e185]
+            - paragraph [ref=f3e186]: Credentials are configured. App Password is never returned to the browser.
+            - generic [ref=f3e187]:
+              - generic [ref=f3e188]:
+                - text: Sender Gmail address
+                - textbox "Sender Gmail address" [ref=f3e189]: deepakt90su30@gmail.com
+              - generic [ref=f3e190]:
+                - text: New Google App Password
+                - textbox "New Google App Password" [ref=f3e191]:
+                  - /placeholder: Leave blank to keep current password
+              - button "Save credentials" [ref=f3e193] [cursor=pointer]
+        - generic [ref=f3e194]:
+          - heading "Email templates" [level=2] [ref=f3e195]
+          - paragraph [ref=f3e196]: "Use placeholders such as {first_name}, {name}, {company}, {title}; follow-up also supports {subject}."
+          - generic [ref=f3e197]:
+            - generic [ref=f3e198]:
+              - text: Initial email template
+              - textbox "Initial email template" [ref=f3e199]: "Name: Deepak Kumar Subject: Exploring opportunities at {company} Hi {first_name}, I hope you're doing well. I'm currently working as a Programmer Analyst at Cognizant with 1+ year of professional experience. My technical skills include Java, Spring Boot, Python, SQL, REST APIs, and Generative AI/AI Agents. I have a strong foundation in Data Structures and Algorithms, with 690+ problems solved on LeetCode, along with hands-on experience building backend and AI-powered projects. I'm actively exploring opportunities in Software Development (SDE/SWE), Backend Engineering, and AI Engineering. I'd appreciate it if you could consider my profile for any relevant openings at {company}. Please find my updated resume attached for your consideration. LeetCode: https://leetcode.com/u/dk_1729 GitHub: https://github.com/rogerkd LinkedIn: https://www.linkedin.com/in/deepak-kumar-03579b242/ Thank you for your time. Looking forward to hearing from you. Best regards, Deepak Kumar +91-7909304175"
+            - generic [ref=f3e200]:
+              - text: Follow-up template
+              - textbox "Follow-up template" [ref=f3e201]: "Subject: Re: {subject} Hi {first_name}, I wanted to politely follow up on my note about opportunities at {company}. If there may be a suitable opportunity, or someone else I should contact, I'd be grateful for your guidance. If now isn't a good time, no worries. Best regards, {name} -- If you'd rather not hear from me, just reply \"unsubscribe\" and I won't email you again."
+            - button "Save templates" [ref=f3e203] [cursor=pointer]
+        - generic [ref=f3e204]:
+          - generic [ref=f3e205]:
+            - heading "Resume" [level=2] [ref=f3e206]
+            - paragraph [ref=f3e207]: "Currently selected: Resume_SE.pdf"
+            - generic [ref=f3e208]:
+              - combobox [ref=f3e209]:
+                - option "Resume_DS1.pdf"
+                - option "Resume_Net.pdf"
+                - option "Resume_SE.pdf" [selected]
+              - button "Use selected" [ref=f3e210] [cursor=pointer]
+            - generic [ref=f3e211]:
+              - generic [ref=f3e212]:
+                - text: Upload PDF, DOC, or DOCX (max 8 MB)
+                - button "Upload PDF, DOC, or DOCX (max 8 MB)" [ref=f3e213]
+              - button "Upload resume" [ref=f3e215] [cursor=pointer]
+          - generic [ref=f3e216]:
+            - heading "Suppression list" [level=2] [ref=f3e217]
+            - paragraph [ref=f3e218]: Suppressed addresses are excluded from campaigns and follow-ups.
+            - generic [ref=f3e219]:
+              - textbox "person@example.com" [ref=f3e220]
+              - button "Suppress" [ref=f3e221] [cursor=pointer]
+            - generic [ref=f3e222]:
+              - generic [ref=f3e223]:
+                - text: akhila@estuate.com
+                - button "Remove" [ref=f3e224] [cursor=pointer]
+              - generic [ref=f3e225]:
+                - text: akriti@elsner.in
+                - button "Remove" [ref=f3e226] [cursor=pointer]
+              - generic [ref=f3e227]:
+                - text: albino@pixis.ai
+                - button "Remove" [ref=f3e228] [cursor=pointer]

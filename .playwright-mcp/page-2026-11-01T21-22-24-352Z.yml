@@ -1,0 +1,51 @@
+- generic [active] [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - generic [ref=f8e3]: Spammer
+    - generic [ref=f8e11]:
+      - status "Gmail connection status" [ref=f8e12]:
+        - generic [ref=f8e14]: Checking Gmail…
+      - button "Notifications" [ref=f8e16] [cursor=pointer]
+      - button "Refresh dashboard" [ref=f8e19] [cursor=pointer]
+  - generic [ref=f8e22]:
+    - complementary [ref=f8e23]:
+      - button "Open profile and preferences" [ref=f8e24] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f8e25]: P
+      - button "Expand navigation" [ref=f8e26] [cursor=pointer]
+      - navigation [ref=f8e30]:
+        - button "Overview" [ref=f8e31] [cursor=pointer]
+        - button "Analytics" [ref=f8e37] [cursor=pointer]
+        - button "Contacts" [ref=f8e40] [cursor=pointer]
+        - button "Tracker" [ref=f8e43] [cursor=pointer]
+        - button "Campaign" [ref=f8e46] [cursor=pointer]
+        - button "Settings" [ref=f8e49] [cursor=pointer]
+        - button "Profile & appearance" [ref=f8e53] [cursor=pointer]
+      - button "Compose a one-off email" [ref=f8e57] [cursor=pointer]
+    - main [ref=f8e61]:
+      - generic [ref=f8e62]:
+        - generic [ref=f8e64]:
+          - heading "Overview" [level=1] [ref=f8e65]
+          - paragraph [ref=f8e66]: Your outreach, in one clear view.
+        - region "Campaign progress" [ref=f8e67]:
+          - generic [ref=f8e68]:
+            - generic [ref=f8e69]: Campaign snapshot
+            - heading "Your next great conversation starts here." [level=2] [ref=f8e70]
+            - paragraph [ref=f8e71]: Campaign progress at a glance.
+            - generic [ref=f8e73]:
+              - generic [ref=f8e74]: Campaign progress
+              - strong [ref=f8e75]: 0%
+            - generic [ref=f8e77]:
+              - button "Preview campaign" [ref=f8e78] [cursor=pointer]
+              - button "Review follow-ups" [ref=f8e79] [cursor=pointer]
+          - generic [ref=f8e80]:
+            - generic [ref=f8e81]: Up next
+            - strong [ref=f8e82]: Loading next contact…
+        - generic [ref=f8e83]:
+          - heading "Campaign pulse" [level=2] [ref=f8e84]
+          - generic [ref=f8e85]: Just the numbers that matter
+        - generic [ref=f8e86]:
+          - heading "Last campaign send" [level=2] [ref=f8e88]
+          - heading "Follow-up queue" [level=2] [ref=f8e91]
+        - generic [ref=f8e94]:
+          - heading "Recent activity" [level=2] [ref=f8e95]
+          - button "Open tracker" [ref=f8e96] [cursor=pointer]
+  - text: Write your email message…

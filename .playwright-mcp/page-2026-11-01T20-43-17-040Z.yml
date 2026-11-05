@@ -1,0 +1,166 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Spammer
+    - generic [ref=e11]:
+      - status "Gmail connection status" [ref=e12]:
+        - generic [ref=e14]: Gmail Connected
+      - button "Notifications" [ref=e16] [cursor=pointer]
+      - button "Refresh dashboard" [ref=e19] [cursor=pointer]
+  - generic [ref=e22]:
+    - complementary [ref=e23]:
+      - button "Open profile and preferences" [ref=e24] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e25]: P
+      - button "Expand navigation" [ref=e181] [cursor=pointer]
+      - navigation [ref=e32]:
+        - button "Overview" [ref=e33] [cursor=pointer]
+        - button "Analytics" [active] [ref=e40] [cursor=pointer]
+        - button "Contacts" [ref=e44] [cursor=pointer]
+        - button "Tracker" [ref=e48] [cursor=pointer]
+        - button "Campaign" [ref=e52] [cursor=pointer]
+        - button "Settings" [ref=e56] [cursor=pointer]
+        - button "Profile & appearance" [ref=e61] [cursor=pointer]
+      - button "Compose a one-off email" [ref=e66] [cursor=pointer]:
+        - generic: Compose email
+    - main [ref=e71]:
+      - generic [ref=e252]:
+        - heading "Analytics" [level=1] [ref=e253]
+        - paragraph [ref=e254]: See what is moving, what is landing, and what needs attention.
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - generic [ref=e257]: Initial emails
+            - generic [ref=e258]: "11"
+            - generic [ref=e259]: 10 campaign · 1 one-off
+          - generic [ref=e260]:
+            - generic [ref=e261]: Replies
+            - generic [ref=e262]: "0"
+            - generic [ref=e263]: Detected in Gmail threads
+          - generic [ref=e264]:
+            - generic [ref=e265]: Reply rate
+            - generic [ref=e266]: 0.0%
+            - generic [ref=e267]: 0 of 11 initial sends
+          - generic [ref=e268]:
+            - generic [ref=e269]: Follow-ups
+            - generic [ref=e270]: "0"
+            - generic [ref=e271]: Sent
+        - generic [ref=e272]:
+          - generic [ref=e273]: Delivery issues
+          - strong [ref=e274]: "3"
+          - generic [ref=e275]: ·
+          - generic [ref=e276]: One-off messages count in analytics, not the campaign daily limit.
+        - generic [ref=e277]:
+          - generic [ref=e278]:
+            - heading "Sending rhythm" [level=2] [ref=e279]
+            - paragraph [ref=e280]: Daily · last 14 days
+            - generic [ref=e281]:
+              - 'generic "2026-10-20: 0" [ref=e282]': 10-20
+              - 'generic "2026-10-21: 0" [ref=e285]': 10-21
+              - 'generic "2026-10-22: 0" [ref=e288]': 10-22
+              - 'generic "2026-10-23: 0" [ref=e291]': 10-23
+              - 'generic "2026-10-24: 0" [ref=e294]': 10-24
+              - 'generic "2026-10-25: 0" [ref=e297]': 10-25
+              - 'generic "2026-10-26: 0" [ref=e300]': 10-26
+              - 'generic "2026-10-27: 0" [ref=e303]': 10-27
+              - 'generic "2026-10-28: 0" [ref=e306]': 10-28
+              - 'generic "2026-10-29: 0" [ref=e309]': 10-29
+              - 'generic "2026-10-30: 0" [ref=e312]': 10-30
+              - 'generic "2026-10-31: 10" [ref=e315]':
+                - generic [ref=e316]: "10"
+                - generic [ref=e318]: 10-31
+              - 'generic "2026-11-01: 1" [ref=e319]':
+                - generic [ref=e320]: "1"
+                - generic [ref=e322]: 11-01
+              - 'generic "2026-11-02: 0" [ref=e323]': 11-02
+          - generic [ref=e326]:
+            - heading "Weekly momentum" [level=2] [ref=e327]
+            - paragraph [ref=e328]: Weekly · starts Monday
+            - generic [ref=e329]:
+              - 'generic "2026-09-14: 0" [ref=e330]': 09-14
+              - 'generic "2026-09-21: 0" [ref=e333]': 09-21
+              - 'generic "2026-09-28: 0" [ref=e336]': 09-28
+              - 'generic "2026-10-05: 0" [ref=e339]': 10-05
+              - 'generic "2026-10-12: 0" [ref=e342]': 10-12
+              - 'generic "2026-10-19: 0" [ref=e345]': 10-19
+              - 'generic "2026-10-26: 11" [ref=e348]':
+                - generic [ref=e349]: "11"
+                - generic [ref=e351]: 10-26
+              - 'generic "2026-11-02: 0" [ref=e352]': 11-02
+        - generic [ref=e355]:
+          - generic [ref=e356]:
+            - heading "Send outcomes" [level=2] [ref=e357]
+            - generic [ref=e359]:
+              - generic [ref=e360]:
+                - generic [ref=e361]: sent
+                - strong [ref=e364]: "11"
+              - generic [ref=e365]:
+                - generic [ref=e366]: refused
+                - strong [ref=e369]: "0"
+              - generic [ref=e370]:
+                - generic [ref=e371]: error
+                - strong [ref=e374]: "0"
+              - generic [ref=e375]:
+                - generic [ref=e376]: unknown
+                - strong [ref=e379]: "0"
+          - generic [ref=e380]:
+            - heading "Follow-up outcomes" [level=2] [ref=e381]
+            - generic [ref=e382]: No follow-up activity yet.
+          - generic [ref=e384]:
+            - heading "Delivery checks" [level=2] [ref=e385]
+            - generic [ref=e387]:
+              - generic [ref=e388]:
+                - generic [ref=e389]: awaiting check
+                - strong [ref=e392]: "8"
+              - generic [ref=e393]:
+                - generic [ref=e394]: bounced
+                - strong [ref=e397]: "3"
+          - generic [ref=e398]:
+            - heading "Top companies still in queue" [level=2] [ref=e399]
+            - generic [ref=e401]:
+              - generic [ref=e402]:
+                - generic [ref=e403]: ntt data
+                - strong [ref=e406]: "8"
+              - generic [ref=e407]:
+                - generic [ref=e408]: aditi consulting
+                - strong [ref=e411]: "7"
+              - generic [ref=e412]:
+                - generic [ref=e413]: eka software solutions
+                - strong [ref=e416]: "5"
+              - generic [ref=e417]:
+                - generic [ref=e418]: envestnet
+                - strong [ref=e421]: "5"
+              - generic [ref=e422]:
+                - generic [ref=e423]: fives digital
+                - strong [ref=e426]: "5"
+              - generic [ref=e427]:
+                - generic [ref=e428]: gateway group of companies
+                - strong [ref=e431]: "5"
+              - generic [ref=e432]:
+                - generic [ref=e433]: greyorange
+                - strong [ref=e436]: "5"
+              - generic [ref=e437]:
+                - generic [ref=e438]: rategain
+                - strong [ref=e441]: "5"
+          - generic [ref=e442]:
+            - heading "Common roles still in queue" [level=2] [ref=e443]
+            - generic [ref=e445]:
+              - generic [ref=e446]:
+                - generic [ref=e447]: head of
+                - strong [ref=e450]: "377"
+              - generic [ref=e451]:
+                - generic [ref=e452]: head
+                - strong [ref=e455]: "133"
+              - generic [ref=e456]:
+                - generic [ref=e457]: vice president
+                - strong [ref=e460]: "128"
+              - generic [ref=e461]:
+                - generic [ref=e462]: director
+                - strong [ref=e465]: "114"
+              - generic [ref=e466]:
+                - generic [ref=e467]: associate director
+                - strong [ref=e470]: "90"
+              - generic [ref=e471]:
+                - generic [ref=e472]: head hr
+                - strong [ref=e475]: "87"
+              - generic [ref=e476]:
+                - generic [ref=e477]: chief people
+                - strong [ref=e480]: "46"
+  - text: Write your email message…
