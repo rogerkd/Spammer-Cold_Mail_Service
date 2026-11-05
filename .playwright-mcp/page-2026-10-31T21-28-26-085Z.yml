@@ -1,0 +1,45 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Spammer
+      - button "Compose a one-off email" [ref=e11] [cursor=pointer]:
+        - generic [ref=e15]: Compose
+    - generic [ref=e16]:
+      - generic [ref=e17]: ● Local only
+      - button "Refresh" [ref=e18] [cursor=pointer]
+  - generic [ref=e19]:
+    - complementary [ref=e20]:
+      - button "Open profile and preferences" [ref=e21] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e22]: P
+        - generic [ref=e23]:
+          - strong [ref=e24]: Your profile
+          - generic [ref=e25]: Loading account…
+      - navigation [ref=e26]:
+        - button "Overview" [ref=e27] [cursor=pointer]
+        - button "Analytics" [ref=e28] [cursor=pointer]
+        - button "Contacts" [ref=e29] [cursor=pointer]
+        - button "Tracker" [ref=e30] [cursor=pointer]
+        - button "Campaign" [ref=e31] [cursor=pointer]
+        - button "Settings" [ref=e32] [cursor=pointer]
+        - button "Profile & appearance" [ref=e33] [cursor=pointer]
+    - main [ref=e34]:
+      - generic [ref=e35]:
+        - heading "Overview" [level=1] [ref=e36]
+        - paragraph [ref=e37]: Your mailer activity and the next steps at a glance.
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - strong [ref=e41]: Campaign progress
+              - generic [ref=e42]: Unique contacts completed
+            - strong [ref=e43]: 0%
+          - generic [ref=e45]:
+            - button "Preview today's batch" [ref=e46] [cursor=pointer]
+            - button "Review follow-ups" [ref=e47] [cursor=pointer]
+            - button "Manage contacts" [ref=e48] [cursor=pointer]
+        - generic [ref=e49]:
+          - heading "Next recipient" [level=2] [ref=e51]
+          - heading "Last successful send" [level=2] [ref=e54]
+        - generic [ref=e56]:
+          - heading "Follow-up queue" [level=2] [ref=e58]
+          - heading "Campaign health" [level=2] [ref=e61]
+        - heading "Recent activity" [level=2] [ref=e64]

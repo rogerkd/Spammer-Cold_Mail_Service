@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Spammer
+    - generic [ref=e11]:
+      - generic [ref=e12]: ● Local only
+      - button "Refresh" [ref=e13] [cursor=pointer]
+  - generic [ref=e14]:
+    - complementary [ref=e15]:
+      - button "Open profile and preferences" [ref=e16] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e17]: P
+        - generic [ref=e18]:
+          - strong [ref=e19]: Your profile
+          - generic [ref=e20]: Loading account…
+      - navigation [ref=e21]:
+        - button "Overview" [ref=e22] [cursor=pointer]
+        - button "Analytics" [ref=e23] [cursor=pointer]
+        - button "Contacts" [ref=e24] [cursor=pointer]
+        - button "Tracker" [ref=e25] [cursor=pointer]
+        - button "Campaign" [ref=e26] [cursor=pointer]
+        - button "Settings" [ref=e27] [cursor=pointer]
+        - button "Profile & appearance" [ref=e28] [cursor=pointer]
+      - button "Compose a one-off email" [ref=e29] [cursor=pointer]:
+        - generic [ref=e33]: Compose email
+    - main [ref=e34]:
+      - generic [ref=e35]:
+        - heading "Overview" [level=1] [ref=e36]
+        - paragraph [ref=e37]: Your mailer activity and the next steps at a glance.
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - strong [ref=e41]: Campaign progress
+              - generic [ref=e42]: Unique contacts completed
+            - strong [ref=e43]: 0%
+          - generic [ref=e45]:
+            - button "Preview today's batch" [ref=e46] [cursor=pointer]
+            - button "Review follow-ups" [ref=e47] [cursor=pointer]
+            - button "Manage contacts" [ref=e48] [cursor=pointer]
+        - generic [ref=e49]:
+          - heading "Next recipient" [level=2] [ref=e51]
+          - heading "Last successful send" [level=2] [ref=e54]
+        - generic [ref=e56]:
+          - heading "Follow-up queue" [level=2] [ref=e58]
+          - heading "Campaign health" [level=2] [ref=e61]
+        - heading "Recent activity" [level=2] [ref=e64]
+  - text: Write your email message…
+  - status [ref=e65]: Unexpected token '<', "<!DOCTYPE "... is not valid JSON

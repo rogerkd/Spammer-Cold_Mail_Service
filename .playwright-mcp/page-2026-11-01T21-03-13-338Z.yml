@@ -1,0 +1,118 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]: Spammer
+    - generic [ref=f3e11]:
+      - status "Gmail connection status" [ref=f3e12]:
+        - generic [ref=f3e14]: Gmail Connected
+      - button "Notifications" [ref=f3e16] [cursor=pointer]
+      - button "Refresh dashboard" [ref=f3e19] [cursor=pointer]
+  - generic [ref=f3e22]:
+    - complementary [ref=f3e23]:
+      - button "Open profile and preferences" [ref=f3e24] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f3e25]: P
+        - generic [ref=f3e26]:
+          - strong [ref=f3e27]: Your profile
+          - generic [ref=f3e28]: deepakt90su30@gmail.com
+      - button "Collapse navigation" [expanded] [ref=f3e29] [cursor=pointer]
+      - navigation [ref=f3e33]:
+        - button "Overview" [ref=f3e34] [cursor=pointer]
+        - button "Analytics" [ref=f3e41] [cursor=pointer]
+        - button "Contacts" [ref=f3e45] [cursor=pointer]
+        - button "Tracker" [ref=f3e49] [cursor=pointer]
+        - button "Campaign" [ref=f3e53] [cursor=pointer]
+        - button "Settings" [ref=f3e57] [cursor=pointer]
+        - button "Profile & appearance" [ref=f3e62] [cursor=pointer]
+      - button "Compose a one-off email" [ref=f3e67] [cursor=pointer]:
+        - generic [ref=f3e71]: Compose email
+    - main [ref=f3e72]:
+      - generic [ref=f3e73]:
+        - generic [ref=f3e75]:
+          - heading "Overview" [level=1] [ref=f3e76]
+          - paragraph [ref=f3e77]: Your outreach, in one clear view.
+        - region "Campaign progress" [ref=f3e78]:
+          - generic [ref=f3e79]:
+            - generic [ref=f3e80]: Campaign snapshot
+            - heading "Your next great conversation starts here." [level=2] [ref=f3e81]
+            - paragraph [ref=f3e82]: 10 of 1,834 contacts reached
+            - generic [ref=f3e84]:
+              - generic [ref=f3e85]: Campaign progress
+              - strong [ref=f3e86]: 0.5%
+            - generic [ref=f3e89]:
+              - button "Preview campaign" [ref=f3e90] [cursor=pointer]
+              - button "Review follow-ups" [ref=f3e91] [cursor=pointer]
+          - generic [ref=f3e92]:
+            - generic [ref=f3e93]: Up next
+            - strong [ref=f3e94]: Alok Kumar
+            - generic [ref=f3e95]: alok.kumar@vfislk.com · VFI SLK
+        - generic [ref=f3e96]:
+          - generic [ref=f3e97]:
+            - generic [ref=f3e98]: Still to reach
+            - generic [ref=f3e99]: "1827"
+            - generic [ref=f3e100]: Contacts
+          - generic [ref=f3e101]:
+            - generic [ref=f3e102]: Sent today
+            - generic [ref=f3e103]: 0 / 10
+            - generic [ref=f3e104]: Campaign limit
+          - generic [ref=f3e105]:
+            - generic [ref=f3e106]: Follow-ups due
+            - generic [ref=f3e107]: "0"
+            - generic [ref=f3e108]: Needs reply check
+          - generic [ref=f3e109]:
+            - generic [ref=f3e110]: Delivery issues
+            - generic [ref=f3e111]: "3"
+            - generic [ref=f3e112]: Review tracker
+        - generic [ref=f3e113]:
+          - heading "Campaign pulse" [level=2] [ref=f3e114]
+          - generic [ref=f3e115]: Just the numbers that matter
+        - generic [ref=f3e116]:
+          - generic [ref=f3e117]:
+            - heading "Last campaign send" [level=2] [ref=f3e118]
+            - generic [ref=f3e119]:
+              - strong [ref=f3e120]: alok.singh@recro.io
+              - generic [ref=f3e121]: 2026-10-31 18:03:01
+          - generic [ref=f3e122]:
+            - heading "Follow-up queue" [level=2] [ref=f3e123]
+            - generic [ref=f3e124]: No follow-ups currently meet the 5-day eligibility interval.
+        - generic [ref=f3e126]:
+          - generic [ref=f3e127]:
+            - heading "Recent activity" [level=2] [ref=f3e128]
+            - button "Open tracker" [ref=f3e129] [cursor=pointer]
+          - table [ref=f3e132]:
+            - rowgroup [ref=f3e133]:
+              - row [ref=f3e134]:
+                - columnheader "Email" [ref=f3e135]
+                - columnheader "Send" [ref=f3e136]
+                - columnheader "Follow-up" [ref=f3e137]
+                - columnheader "Last updated" [ref=f3e138]
+            - rowgroup [ref=f3e139]:
+              - row [ref=f3e140]:
+                - cell "recruitment@rawabiholding.com" [ref=f3e141]
+                - cell "sent" [ref=f3e142]
+                - cell "pending" [ref=f3e144]
+                - cell "2026-11-01 20:42:21" [ref=f3e146]
+              - row [ref=f3e147]:
+                - cell "alok.singh@recro.io" [ref=f3e148]
+                - cell "sent" [ref=f3e149]
+                - cell "pending" [ref=f3e151]
+                - cell "2026-10-31 18:03:01" [ref=f3e153]
+              - row [ref=f3e154]:
+                - cell "allwyn.r@qbrainx.com" [ref=f3e155]
+                - cell "sent" [ref=f3e156]
+                - cell "pending" [ref=f3e158]
+                - cell "2026-10-31 17:59:09" [ref=f3e160]
+              - row [ref=f3e161]:
+                - cell "albino@pixis.ai" [ref=f3e162]
+                - cell "sent" [ref=f3e163]
+                - cell "pending" [ref=f3e165]
+                - cell "2026-10-31 17:56:27" [ref=f3e167]
+              - row [ref=f3e168]:
+                - cell "akshata.bhandare@windmill.ch" [ref=f3e169]
+                - cell "sent" [ref=f3e170]
+                - cell "pending" [ref=f3e172]
+                - cell "2026-10-31 17:51:40" [ref=f3e174]
+              - row [ref=f3e175]:
+                - cell "akriti@elsner.in" [ref=f3e176]
+                - cell "sent" [ref=f3e177]
+                - cell "pending" [ref=f3e179]
+                - cell "2026-10-31 17:47:17" [ref=f3e181]
+  - text: Write your email message…

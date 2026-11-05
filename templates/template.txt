@@ -1,0 +1,24 @@
+Name: Deepak Kumar
+Subject: Exploring opportunities at {company}
+
+Hi {first_name},
+
+I hope you're doing well.
+
+I'm currently working as a Programmer Analyst at Cognizant with 1+ year of professional experience. My technical skills include Java, Spring Boot, Python, SQL, REST APIs, and Generative AI/AI Agents.
+
+I have a strong foundation in Data Structures and Algorithms, with 690+ problems solved on LeetCode, along with hands-on experience building backend and AI-powered projects.
+
+I'm actively exploring opportunities in Software Development (SDE/SWE), Backend Engineering, and AI Engineering. I'd appreciate it if you could consider my profile for any relevant openings at {company}.
+
+Please find my updated resume attached for your consideration.
+
+LeetCode: https://leetcode.com/u/dk_1729
+GitHub: https://github.com/rogerkd
+LinkedIn: https://www.linkedin.com/in/deepak-kumar-03579b242/
+
+Thank you for your time. Looking forward to hearing from you.
+
+Best regards,
+Deepak Kumar
++91-7909304175

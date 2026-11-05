@@ -1,0 +1,59 @@
+- generic [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - generic [ref=f4e4]: ✉
+      - generic [ref=f4e5]: Outreach Desk
+    - generic [ref=f4e6]:
+      - generic [ref=f4e7]: ● Local only
+      - button "Refresh" [ref=f4e8] [cursor=pointer]
+  - generic [ref=f4e9]:
+    - complementary [ref=f4e10]:
+      - button "Open profile and preferences" [active] [ref=f4e11] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f4e12]: P
+        - strong [ref=f4e14]: Your profile
+      - navigation [ref=f4e15]:
+        - button "Overview" [ref=f4e16] [cursor=pointer]
+        - button "Analytics" [ref=f4e17] [cursor=pointer]
+        - button "Contacts" [ref=f4e18] [cursor=pointer]
+        - button "Tracker" [ref=f4e19] [cursor=pointer]
+        - button "Campaign" [ref=f4e20] [cursor=pointer]
+        - button "Settings" [ref=f4e21] [cursor=pointer]
+        - button "Profile & appearance" [ref=f4e22] [cursor=pointer]
+    - main [ref=f4e23]:
+      - generic [ref=f4e147]:
+        - heading "Profile & appearance" [level=1] [ref=f4e148]
+        - paragraph [ref=f4e149]: Personalize your dashboard profile and visual theme. Preferences are stored in this browser.
+        - generic [ref=f4e150]:
+          - generic [ref=f4e151]:
+            - heading "Personal profile" [level=2] [ref=f4e152]
+            - paragraph [ref=f4e153]: Your name and photo personalize this local dashboard only.
+            - generic [ref=f4e154]:
+              - generic [ref=f4e155]:
+                - generic [aria-hidden] [ref=f4e156]: P
+                - generic [ref=f4e157]:
+                  - generic [ref=f4e158]: Choose photo
+                  - button "Remove photo" [ref=f4e159] [cursor=pointer]
+              - generic [ref=f4e160]:
+                - text: Display name
+                - textbox "Display name" [ref=f4e161]:
+                  - /placeholder: Your name
+              - generic [ref=f4e162]:
+                - text: Connected sender account
+                - textbox "Connected sender account Change the sender account in Settings. App Passwords are never displayed here." [ref=f4e163]: deepakt90su30@gmail.com
+                - generic [ref=f4e164]: Change the sender account in Settings. App Passwords are never displayed here.
+              - button "Save profile" [ref=f4e166] [cursor=pointer]
+          - generic [ref=f4e167]:
+            - heading "Appearance" [level=2] [ref=f4e168]
+            - paragraph [ref=f4e169]: Choose how the dashboard looks on this device.
+            - group "Color theme" [ref=f4e170]:
+              - generic [ref=f4e172]:
+                - generic [ref=f4e173]:
+                  - radio "☀ Light" [ref=f4e174]
+                  - generic [ref=f4e175] [cursor=pointer]: ☀ Light
+                - generic [ref=f4e176]:
+                  - radio "☾ Dark" [ref=f4e177]
+                  - generic [ref=f4e178] [cursor=pointer]: ☾ Dark
+                - generic [ref=f4e179]:
+                  - radio "◐ System" [checked] [ref=f4e180]
+                  - generic [ref=f4e181] [cursor=pointer]: ◐ System
+            - button "Open account settings" [ref=f4e182] [cursor=pointer]

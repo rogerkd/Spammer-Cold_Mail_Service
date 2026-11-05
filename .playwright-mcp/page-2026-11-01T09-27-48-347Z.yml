@@ -1,0 +1,45 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]: Spammer
+    - generic [ref=f1e11]:
+      - generic [ref=f1e12]: ● Local only
+      - button "Refresh" [ref=f1e13] [cursor=pointer]
+  - generic [ref=f1e14]:
+    - complementary [ref=f1e15]:
+      - button "Open profile and preferences" [ref=f1e16] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f1e17]: P
+        - generic [ref=f1e18]:
+          - strong [ref=f1e19]: Your profile
+          - generic [ref=f1e20]: deepakt90su30@gmail.com
+      - navigation [ref=f1e21]:
+        - button "Overview" [ref=f1e22] [cursor=pointer]
+        - button "Analytics" [ref=f1e23] [cursor=pointer]
+        - button "Contacts" [ref=f1e24] [cursor=pointer]
+        - button "Tracker" [ref=f1e25] [cursor=pointer]
+        - button "Campaign" [active] [ref=f1e26] [cursor=pointer]
+        - button "Settings" [ref=f1e27] [cursor=pointer]
+        - button "Profile & appearance" [ref=f1e28] [cursor=pointer]
+      - button "Compose a one-off email" [ref=f1e29] [cursor=pointer]:
+        - generic [ref=f1e33]: Compose email
+    - main [ref=f1e34]:
+      - generic [ref=f1e218]:
+        - heading "Campaign controls" [level=1] [ref=f1e219]
+        - paragraph [ref=f1e220]: Preview is safe. Sending actions always require confirmation.
+        - generic [ref=f1e221]:
+          - heading "Outbound actions" [level=2] [ref=f1e222]
+          - generic [ref=f1e223]:
+            - button "Preview next batch" [ref=f1e224] [cursor=pointer]
+            - button "Send daily batch" [ref=f1e225] [cursor=pointer]
+            - button "Preview follow-ups" [ref=f1e226] [cursor=pointer]
+            - button "Check replies & send follow-ups" [ref=f1e227] [cursor=pointer]
+            - button "Sync threads / reconcile unknown sends" [ref=f1e228] [cursor=pointer]
+          - generic [ref=f1e230]:
+            - text: Send one test email to
+            - generic [ref=f1e231]:
+              - textbox "Send one test email to Send test" [ref=f1e232]:
+                - /placeholder: you@example.com
+              - button "Send test" [ref=f1e233] [cursor=pointer]
+        - generic [ref=f1e234]: Automatic · every 15 minutes · recent 30 days · Last check 2026-11-01 14:56:29 · Next 2026-11-01 15:11:29
+        - generic [ref=f1e235]: Automatic checks inspect Gmail Inbox and Spam for notices matching recent tracked sends. Confirmed address-not-found bounces are blocked and removed from Contacts; temporary or unclear delivery issues permanently turn follow-ups off and are flagged for review. Tracker history is retained. A missing bounce does not prove delivery.
+        - generic [ref=f1e236]: Email sending is irreversible. Preview first, verify the recipient and personalized message, then confirm the send action.
+  - text: Write your email message…

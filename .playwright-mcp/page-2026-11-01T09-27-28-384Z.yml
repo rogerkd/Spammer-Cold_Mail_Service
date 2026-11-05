@@ -1,0 +1,90 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]: Spammer
+    - generic [ref=f1e11]:
+      - generic [ref=f1e12]: ● Local only
+      - button "Refresh" [ref=f1e13] [cursor=pointer]
+  - generic [ref=f1e14]:
+    - complementary [ref=f1e15]:
+      - button "Open profile and preferences" [ref=f1e16] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f1e17]: P
+        - generic [ref=f1e18]:
+          - strong [ref=f1e19]: Your profile
+          - generic [ref=f1e20]: deepakt90su30@gmail.com
+      - navigation [ref=f1e21]:
+        - button "Overview" [ref=f1e22] [cursor=pointer]
+        - button "Analytics" [ref=f1e23] [cursor=pointer]
+        - button "Contacts" [ref=f1e24] [cursor=pointer]
+        - button "Tracker" [ref=f1e25] [cursor=pointer]
+        - button "Campaign" [ref=f1e26] [cursor=pointer]
+        - button "Settings" [ref=f1e27] [cursor=pointer]
+        - button "Profile & appearance" [ref=f1e28] [cursor=pointer]
+      - button "Compose a one-off email" [ref=f1e29] [cursor=pointer]:
+        - generic [ref=f1e33]: Compose email
+    - main [ref=f1e34]:
+      - generic [ref=f1e165]:
+        - heading "Settings" [level=1] [ref=f1e166]
+        - paragraph [ref=f1e167]: Manage sending limits, Gmail credentials, templates, and resume.
+        - generic [ref=f1e168]:
+          - generic [ref=f1e169]:
+            - heading "Sending limits" [level=2] [ref=f1e170]
+            - generic [ref=f1e172]:
+              - generic [ref=f1e173]:
+                - text: Emails per day
+                - spinbutton "Emails per day" [ref=f1e174]: "10"
+              - generic [ref=f1e175]:
+                - text: Minimum gap (seconds)
+                - spinbutton "Minimum gap (seconds)" [ref=f1e176]: "120"
+              - generic [ref=f1e177]:
+                - text: Maximum gap (seconds)
+                - spinbutton "Maximum gap (seconds)" [ref=f1e178]: "300"
+              - generic [ref=f1e179]:
+                - text: Days between follow-ups
+                - spinbutton "Days between follow-ups Wait this many days before the first follow-up and between later follow-ups." [ref=f1e180]: "5"
+                - generic [ref=f1e181]: Wait this many days before the first follow-up and between later follow-ups.
+              - generic [ref=f1e182]:
+                - text: Maximum follow-ups per recipient
+                - combobox "Maximum follow-ups per recipient" [ref=f1e183]:
+                  - option "1 follow-up (default)" [selected]
+                  - option "2 follow-ups"
+                  - option "3 follow-ups"
+              - button "Save limits" [active] [ref=f1e185] [cursor=pointer]
+          - generic [ref=f1e186]:
+            - heading "Gmail credentials" [level=2] [ref=f1e187]
+            - paragraph [ref=f1e188]: Credentials are configured. App Password is never returned to the browser.
+            - generic [ref=f1e189]:
+              - generic [ref=f1e190]:
+                - text: Sender Gmail address
+                - textbox "Sender Gmail address" [ref=f1e191]: deepakt90su30@gmail.com
+              - generic [ref=f1e192]:
+                - text: New Google App Password
+                - textbox "New Google App Password" [ref=f1e193]:
+                  - /placeholder: Leave blank to keep current password
+              - button "Save credentials" [ref=f1e195] [cursor=pointer]
+        - generic [ref=f1e196]:
+          - heading "Email templates" [level=2] [ref=f1e197]
+          - paragraph [ref=f1e198]: "Use placeholders such as {first_name}, {name}, {company}, {title}; follow-up also supports {subject}."
+          - generic [ref=f1e199]:
+            - generic [ref=f1e200]:
+              - text: Initial email template
+              - textbox "Initial email template" [ref=f1e201]: "Name: Deepak Kumar Subject: Exploring opportunities at {company} Hi {first_name}, I hope you're doing well. I'm currently working as a Programmer Analyst at Cognizant with 1+ year of professional experience. My technical skills include Java, Spring Boot, Python, SQL, REST APIs, and Generative AI/AI Agents. I have a strong foundation in Data Structures and Algorithms, with 690+ problems solved on LeetCode, along with hands-on experience building backend and AI-powered projects. I'm actively exploring opportunities in Software Development (SDE/SWE), Backend Engineering, and AI Engineering. I'd appreciate it if you could consider my profile for any relevant openings at {company}. Please find my updated resume attached for your consideration. LeetCode: https://leetcode.com/u/dk_1729 GitHub: https://github.com/rogerkd LinkedIn: https://www.linkedin.com/in/deepak-kumar-03579b242/ Thank you for your time. Looking forward to hearing from you. Best regards, Deepak Kumar +91-7909304175"
+            - generic [ref=f1e202]:
+              - text: Follow-up template
+              - textbox "Follow-up template" [ref=f1e203]: "Subject: Re: {subject} Hi {first_name}, I wanted to politely follow up on my note about opportunities at {company}. If there may be a suitable opportunity, or someone else I should contact, I'd be grateful for your guidance. If now isn't a good time, no worries. Best regards, {name} -- If you'd rather not hear from me, just reply \"unsubscribe\" and I won't email you again."
+            - button "Save templates" [ref=f1e205] [cursor=pointer]
+        - generic [ref=f1e206]:
+          - heading "Resume" [level=2] [ref=f1e207]
+          - paragraph [ref=f1e208]: "Currently selected: Resume_SE.pdf"
+          - generic [ref=f1e209]:
+            - combobox [ref=f1e210]:
+              - option "Resume_DS1.pdf"
+              - option "Resume_Net.pdf"
+              - option "Resume_SE.pdf" [selected]
+            - button "Use selected" [ref=f1e211] [cursor=pointer]
+          - generic [ref=f1e212]:
+            - generic [ref=f1e213]:
+              - text: Upload PDF, DOC, or DOCX (max 8 MB)
+              - button "Upload PDF, DOC, or DOCX (max 8 MB)" [ref=f1e214]
+            - button "Upload resume" [ref=f1e216] [cursor=pointer]
+  - text: Write your email message…
+  - status [ref=f1e217]: Sending limits saved.

@@ -1,0 +1,63 @@
+- generic [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - generic [ref=f2e4]: ✉
+      - generic [ref=f2e5]: Outreach Desk
+    - generic [ref=f2e6]:
+      - generic [ref=f2e7]: ● Local only
+      - button "Refresh" [ref=f2e8] [cursor=pointer]
+  - generic [ref=f2e9]:
+    - complementary [ref=f2e10]:
+      - button "Open profile and preferences" [ref=f2e11] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f2e12]: DT
+        - generic [ref=f2e13]:
+          - strong [ref=f2e14]: Dashboard Tester
+          - generic [ref=f2e15]: deepakt90su30@gmail.com
+      - navigation [ref=f2e16]:
+        - button "Overview" [ref=f2e17] [cursor=pointer]
+        - button "Analytics" [ref=f2e18] [cursor=pointer]
+        - button "Contacts" [ref=f2e19] [cursor=pointer]
+        - button "Tracker" [ref=f2e20] [cursor=pointer]
+        - button "Campaign" [ref=f2e21] [cursor=pointer]
+        - button "Settings" [ref=f2e22] [cursor=pointer]
+        - button "Profile & appearance" [ref=f2e23] [cursor=pointer]
+    - main [ref=f2e24]:
+      - generic [ref=f2e238]:
+        - heading "Profile & appearance" [level=1] [ref=f2e239]
+        - paragraph [ref=f2e240]: Personalize your dashboard profile and visual theme. Preferences are stored in this browser.
+        - generic [ref=f2e241]:
+          - generic [ref=f2e242]:
+            - heading "Personal profile" [level=2] [ref=f2e243]
+            - paragraph [ref=f2e244]: Your name and photo personalize this local dashboard only.
+            - generic [ref=f2e245]:
+              - generic [ref=f2e246]:
+                - generic [aria-hidden] [ref=f2e247]: DT
+                - generic [ref=f2e248]:
+                  - generic [ref=f2e249]: Choose photo
+                  - button "Remove photo" [ref=f2e250] [cursor=pointer]
+              - generic [ref=f2e251]:
+                - text: Display name
+                - textbox "Display name" [ref=f2e252]:
+                  - /placeholder: Your name
+                  - text: Dashboard Tester
+              - generic [ref=f2e253]:
+                - text: Connected sender account
+                - textbox "Connected sender account Change the sender account in Settings. App Passwords are never displayed here." [ref=f2e254]: deepakt90su30@gmail.com
+                - generic [ref=f2e255]: Change the sender account in Settings. App Passwords are never displayed here.
+              - button "Save profile" [active] [ref=f2e257] [cursor=pointer]
+          - generic [ref=f2e258]:
+            - heading "Appearance" [level=2] [ref=f2e259]
+            - paragraph [ref=f2e260]: Choose how the dashboard looks on this device.
+            - group "Color theme" [ref=f2e261]:
+              - generic [ref=f2e263]:
+                - generic [ref=f2e264]:
+                  - radio "☀ Light" [ref=f2e265]
+                  - generic [ref=f2e266] [cursor=pointer]: ☀ Light
+                - generic [ref=f2e267]:
+                  - radio "☾ Dark" [ref=f2e268]
+                  - generic [ref=f2e269] [cursor=pointer]: ☾ Dark
+                - generic [ref=f2e270]:
+                  - radio "◐ System" [checked] [ref=f2e271]
+                  - generic [ref=f2e272] [cursor=pointer]: ◐ System
+            - button "Open account settings" [ref=f2e273] [cursor=pointer]
+  - status [ref=f2e274]: Profile saved in this browser.

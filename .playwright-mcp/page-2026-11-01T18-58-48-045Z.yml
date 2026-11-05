@@ -1,0 +1,68 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Spammer
+    - generic [ref=e11]:
+      - status "Gmail connection status" [ref=e12]:
+        - generic [ref=e14]: Gmail connected
+      - generic [ref=e15]:
+        - button "Notifications" [expanded] [active] [ref=e16] [cursor=pointer]:
+          - generic [ref=e108]: "2"
+        - region "Notifications" [ref=e109]:
+          - generic [ref=e110]:
+            - strong [ref=e111]: Notifications
+            - button "Mark all read" [ref=e112] [cursor=pointer]
+          - generic [ref=e113]:
+            - button "Delivery bounced Check the delivery result for test@example.com. 2026-11-01 18:55:00" [ref=e114] [cursor=pointer]:
+              - strong [ref=e115]: Delivery bounced
+              - generic [ref=e116]: Check the delivery result for test@example.com.
+              - time [ref=e117]: 2026-11-01 18:55:00
+            - button "Follow-up due Check for a reply before following up with test@example.com. 2026-11-01 18:54:00" [ref=e118] [cursor=pointer]:
+              - strong [ref=e119]: Follow-up due
+              - generic [ref=e120]: Check for a reply before following up with test@example.com.
+              - time [ref=e121]: 2026-11-01 18:54:00
+      - generic [ref=e19]: ● Local only
+      - button "Refresh" [ref=e20] [cursor=pointer]
+  - generic [ref=e21]:
+    - complementary [ref=e22]:
+      - button "Open profile and preferences" [ref=e23] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e24]: P
+        - generic [ref=e25]:
+          - strong [ref=e26]: Your profile
+          - generic [ref=e27]: sender@example.com
+      - navigation [ref=e28]:
+        - button "Overview" [ref=e29] [cursor=pointer]
+        - button "Analytics" [ref=e30] [cursor=pointer]
+        - button "Contacts" [ref=e31] [cursor=pointer]
+        - button "Tracker" [ref=e32] [cursor=pointer]
+        - button "Campaign" [ref=e33] [cursor=pointer]
+        - button "Settings" [ref=e34] [cursor=pointer]
+        - button "Profile & appearance" [ref=e35] [cursor=pointer]
+      - button "Compose a one-off email" [ref=e36] [cursor=pointer]:
+        - generic [ref=e40]: Compose email
+    - main [ref=e41]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - heading "Campaign" [level=1] [ref=e76]
+            - paragraph [ref=e77]: Preview safely before sending. Sending actions always ask for confirmation.
+          - button "Send test" [ref=e78] [cursor=pointer]
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - heading "New outreach" [level=3] [ref=e83]
+              - generic [ref=e84]: Review your next batch before sending
+            - generic [ref=e85]:
+              - button "Preview next batch" [ref=e86] [cursor=pointer]
+              - button "Send daily batch" [ref=e87] [cursor=pointer]
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - heading "Follow-ups" [level=3] [ref=e90]
+              - generic [ref=e91]: Replies are checked before any follow-up is sent
+            - generic [ref=e92]:
+              - button "Preview follow-ups" [ref=e93] [cursor=pointer]
+              - button "Check replies & send due follow-ups" [ref=e94] [cursor=pointer]
+          - group [ref=e95]:
+            - generic "More campaign tools" [ref=e96] [cursor=pointer]
+        - group [ref=e97]:
+          - generic "Delivery monitoring & sending information" [ref=e98] [cursor=pointer]
+  - text: Write your email message…

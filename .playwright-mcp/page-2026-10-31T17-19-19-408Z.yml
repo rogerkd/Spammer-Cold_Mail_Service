@@ -1,0 +1,123 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]: ✉
+      - generic [ref=f1e5]: Outreach Desk
+    - generic [ref=f1e6]:
+      - generic [ref=f1e7]: ● Local only
+      - button "Refresh" [ref=f1e8] [cursor=pointer]
+  - generic [ref=f1e9]:
+    - complementary [ref=f1e10]:
+      - navigation [ref=f1e11]:
+        - button "Overview" [active] [ref=f1e12] [cursor=pointer]
+        - button "Analytics" [ref=f1e13] [cursor=pointer]
+        - button "Contacts" [ref=f1e14] [cursor=pointer]
+        - button "Tracker" [ref=f1e15] [cursor=pointer]
+        - button "Campaign" [ref=f1e16] [cursor=pointer]
+        - button "Settings" [ref=f1e17] [cursor=pointer]
+    - main [ref=f1e18]:
+      - generic [ref=f1e19]:
+        - heading "Overview" [level=1] [ref=f1e20]
+        - paragraph [ref=f1e21]: Your mailer activity and the next steps at a glance.
+        - generic [ref=f1e22]:
+          - generic [ref=f1e341]:
+            - generic [ref=f1e342]: Contacts
+            - generic [ref=f1e343]: "1842"
+            - generic [ref=f1e344]: 1836 valid
+          - generic [ref=f1e345]:
+            - generic [ref=f1e346]: Already emailed
+            - generic [ref=f1e347]: "10"
+            - generic [ref=f1e348]: Unique recipients
+          - generic [ref=f1e349]:
+            - generic [ref=f1e350]: Remaining
+            - generic [ref=f1e351]: "1826"
+            - generic [ref=f1e352]: "Next: alok.kumar@vfislk.com"
+          - generic [ref=f1e353]:
+            - generic [ref=f1e354]: Sent today
+            - generic [ref=f1e355]: 10 / 10
+            - generic [ref=f1e356]: Daily cap
+          - generic [ref=f1e357]:
+            - generic [ref=f1e358]: Follow-ups due
+            - generic [ref=f1e359]: "0"
+            - generic [ref=f1e360]: Need reply check
+          - generic [ref=f1e361]:
+            - generic [ref=f1e362]: Suppressed
+            - generic [ref=f1e363]: "0"
+            - generic [ref=f1e364]: Excluded from sends
+        - generic [ref=f1e47]:
+          - generic [ref=f1e48]:
+            - generic [ref=f1e49]:
+              - strong [ref=f1e50]: Campaign progress
+              - generic [ref=f1e51]: Unique contacts completed
+            - strong [ref=f1e52]: 0.5%
+          - generic [ref=f1e54]:
+            - button "Preview today's batch" [ref=f1e55] [cursor=pointer]
+            - button "Review follow-ups" [ref=f1e56] [cursor=pointer]
+            - button "Manage contacts" [ref=f1e57] [cursor=pointer]
+        - generic [ref=f1e58]:
+          - generic [ref=f1e59]:
+            - heading "Next recipient" [level=2] [ref=f1e60]
+            - generic [ref=f1e61]:
+              - strong [ref=f1e365]: Alok Kumar
+              - generic [ref=f1e366]: alok.kumar@vfislk.com · VFI SLK
+          - generic [ref=f1e64]:
+            - heading "Last successful send" [level=2] [ref=f1e65]
+            - generic [ref=f1e66]:
+              - strong [ref=f1e367]: alok.singh@recro.io
+              - generic [ref=f1e368]: 2026-10-31 18:03:01 · Exploring opportunities at Recro
+        - generic [ref=f1e69]:
+          - generic [ref=f1e70]:
+            - heading "Follow-up queue" [level=2] [ref=f1e71]
+            - generic [ref=f1e72]: No follow-ups currently meet the 7-day eligibility check.
+          - generic [ref=f1e74]:
+            - heading "Campaign health" [level=2] [ref=f1e75]
+            - generic [ref=f1e370]:
+              - generic [ref=f1e371]:
+                - strong [ref=f1e372]: Daily send limit reached
+                - generic [ref=f1e373]: 10 of 10 initial emails sent today
+              - generic [ref=f1e374]:
+                - strong [ref=f1e375]: 6 contacts need review
+                - generic [ref=f1e376]: 1,836 valid of 1,842 contacts
+              - generic [ref=f1e377]:
+                - strong [ref=f1e378]: No overdue follow-ups identified
+                - generic [ref=f1e379]: Run a follow-up check to detect replies before sending
+        - generic [ref=f1e87]:
+          - heading "Recent activity" [level=2] [ref=f1e88]
+          - table [ref=f1e381]:
+            - rowgroup [ref=f1e382]:
+              - row [ref=f1e383]:
+                - columnheader "Email" [ref=f1e384]
+                - columnheader "Send" [ref=f1e385]
+                - columnheader "Follow-up" [ref=f1e386]
+                - columnheader "Last updated" [ref=f1e387]
+            - rowgroup [ref=f1e388]:
+              - row [ref=f1e389]:
+                - cell "alok.singh@recro.io" [ref=f1e390]
+                - cell "sent" [ref=f1e391]
+                - cell "pending" [ref=f1e393]
+                - cell "2026-10-31 18:03:01" [ref=f1e395]
+              - row [ref=f1e396]:
+                - cell "allwyn.r@qbrainx.com" [ref=f1e397]
+                - cell "sent" [ref=f1e398]
+                - cell "pending" [ref=f1e400]
+                - cell "2026-10-31 17:59:09" [ref=f1e402]
+              - row [ref=f1e403]:
+                - cell "albino@pixis.ai" [ref=f1e404]
+                - cell "sent" [ref=f1e405]
+                - cell "pending" [ref=f1e407]
+                - cell "2026-10-31 17:56:27" [ref=f1e409]
+              - row [ref=f1e410]:
+                - cell "akshata.bhandare@windmill.ch" [ref=f1e411]
+                - cell "sent" [ref=f1e412]
+                - cell "pending" [ref=f1e414]
+                - cell "2026-10-31 17:51:40" [ref=f1e416]
+              - row [ref=f1e417]:
+                - cell "akriti@elsner.in" [ref=f1e418]
+                - cell "sent" [ref=f1e419]
+                - cell "pending" [ref=f1e421]
+                - cell "2026-10-31 17:47:17" [ref=f1e423]
+              - row [ref=f1e424]:
+                - cell "akram.mohammad@colruytgroup.com" [ref=f1e425]
+                - cell "sent" [ref=f1e426]
+                - cell "pending" [ref=f1e428]
+                - cell "2026-10-31 17:42:35" [ref=f1e430]

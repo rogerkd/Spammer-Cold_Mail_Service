@@ -1,0 +1,45 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]: Spammer
+      - button "Compose a one-off email" [ref=f1e11] [cursor=pointer]:
+        - generic [ref=f1e15]: Compose
+    - generic [ref=f1e16]:
+      - generic [ref=f1e17]: ● Local only
+      - button "Refresh" [ref=f1e18] [cursor=pointer]
+  - generic [ref=f1e19]:
+    - complementary [ref=f1e20]:
+      - button "Open profile and preferences" [ref=f1e21] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f1e22]: P
+        - generic [ref=f1e23]:
+          - strong [ref=f1e24]: Your profile
+          - generic [ref=f1e25]: Loading account…
+      - navigation [ref=f1e26]:
+        - button "Overview" [ref=f1e27] [cursor=pointer]
+        - button "Analytics" [ref=f1e28] [cursor=pointer]
+        - button "Contacts" [ref=f1e29] [cursor=pointer]
+        - button "Tracker" [ref=f1e30] [cursor=pointer]
+        - button "Campaign" [ref=f1e31] [cursor=pointer]
+        - button "Settings" [ref=f1e32] [cursor=pointer]
+        - button "Profile & appearance" [ref=f1e33] [cursor=pointer]
+    - main [ref=f1e34]:
+      - generic [ref=f1e35]:
+        - heading "Overview" [level=1] [ref=f1e36]
+        - paragraph [ref=f1e37]: Your mailer activity and the next steps at a glance.
+        - generic [ref=f1e38]:
+          - generic [ref=f1e39]:
+            - generic [ref=f1e40]:
+              - strong [ref=f1e41]: Campaign progress
+              - generic [ref=f1e42]: Unique contacts completed
+            - strong [ref=f1e43]: 0%
+          - generic [ref=f1e45]:
+            - button "Preview today's batch" [ref=f1e46] [cursor=pointer]
+            - button "Review follow-ups" [ref=f1e47] [cursor=pointer]
+            - button "Manage contacts" [ref=f1e48] [cursor=pointer]
+        - generic [ref=f1e49]:
+          - heading "Next recipient" [level=2] [ref=f1e51]
+          - heading "Last successful send" [level=2] [ref=f1e54]
+        - generic [ref=f1e56]:
+          - heading "Follow-up queue" [level=2] [ref=f1e58]
+          - heading "Campaign health" [level=2] [ref=f1e61]
+        - heading "Recent activity" [level=2] [ref=f1e64]
