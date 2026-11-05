@@ -1,0 +1,11 @@
+Subject: Re: {subject}
+
+Hi {first_name},
+
+I wanted to politely follow up on my note about opportunities at {company}. If there may be a suitable opportunity, or someone else I should contact, I'd be grateful for your guidance. If now isn't a good time, no worries.
+
+Best regards,
+{name}
+
+--
+If you'd rather not hear from me, just reply "unsubscribe" and I won't email you again.

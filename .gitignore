@@ -1,0 +1,11 @@
+.env
+data/
+accounts/
+local_profiles/
+__pycache__/
+*.py[cod]
+*.tmp
+
+# Playwright MCP local artifacts
+.playwright-mcp/
+playwright-mcp/
